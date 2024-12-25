@@ -40,6 +40,21 @@ Coursework includes Advanced Machine Learning, Natural Language Processing, Huma
 
 Focus on AI, philosophy, and psychology. Graduated summa cum laude (with highest distinction).
 
+## Recent Activity Highlights
+
+### October 2024
+- Announced a new role at **Mantic**, an AI-powered forecasting startup. Researching predictive systems for future events, such as pandemics, elections, and AI developments.
+- Highlighted a positive response to the paper *AI Sandbagging: Language Models can Strategically Underperform on Evaluations* and shared follow-up research in collaboration with organizations like Anthropic and GovAI.
+
+### June 2024
+- Released a paper on sandbagging, exploring the risks posed by AI systems that can hide capabilities during evaluations. The work emphasizes the importance of trustworthy AI evaluations.
+
+### March 2024
+- Shared findings from a study using activation steering to adjust language models' behaviors, addressing issues like myopia and wealth-seeking tendencies. 
+
+### January 2024
+- Moderated a high-profile Q&A event with OpenAI and Alignment Research Center researchers, attracting over 1,800 attendees to discuss existential risks posed by AI.
+
 ## Research Papers
 
 - **van der Weij, T., Hofstätter, F., Jaffe, O., Brown, S. F., & Ward, F. R.** (2024). *AI Sandbagging: Language Models can Strategically Underperform on Evaluations.* arXiv preprint arXiv:2406.07358.
