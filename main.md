@@ -2,6 +2,8 @@
 
 MATS Scholar | Co-founder & Board Member ENAIS | AI Safety Researcher
 
+![Teun van der Weij](weij002_cropped.jpg)
+
 ## About Me
 
 I am an AI safety researcher currently working as a MATS Scholar, focusing on strategic underperformance on evaluations (sandbagging) of general purpose AI. I'm also the co-founder and co-director of ENAIS (European Network for AI Safety), working to improve coordination between AI Safety researchers and policymakers in Europe.
