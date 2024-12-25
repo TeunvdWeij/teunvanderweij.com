@@ -42,28 +42,36 @@ Focus on AI, philosophy, and psychology. Graduated summa cum laude (with highest
 
 ## Research Papers
 
-- van der Weij, T., Hofstätter, F., Jaffe, O., Brown, S. F., & Ward, F. R. (2024). AI Sandbagging: Language Models can Strategically Underperform on Evaluations. arXiv preprint arXiv:2406.07358.
-- van der Weij, T., Poesio, M., & Schoots, N. (2024). Extending Activation Steering to Broad Skills and Multiple Behaviours. arXiv preprint arXiv:2403.05767.
-- van der Weij, T., & Lermen, S. (2023). Evaluating Shutdown Avoidance of Language Models in Textual Scenarios. arXiv preprint arXiv:2307.00787.
-- van der Weij, T., Soancatl Aguilar, V., & Solorio-Fernández, S. (2022). Runtime Prediction of Filter Unsupervised Feature Selection Methods. Research in Computing Science, 150(8), 138-150.
+- **van der Weij, T., Hofstätter, F., Jaffe, O., Brown, S. F., & Ward, F. R.** (2024). *AI Sandbagging: Language Models can Strategically Underperform on Evaluations.* arXiv preprint arXiv:2406.07358.
+- **van der Weij, T., Poesio, M., & Schoots, N.** (2024). *Extending Activation Steering to Broad Skills and Multiple Behaviours.* arXiv preprint arXiv:2403.05767.
+- **van der Weij, T., & Lermen, S.** (2023). *Evaluating Shutdown Avoidance of Language Models in Textual Scenarios.* arXiv preprint arXiv:2307.00787.
+- **van der Weij, T., Soancatl Aguilar, V., & Solorio-Fernández, S.** (2022). *Runtime Prediction of Filter Unsupervised Feature Selection Methods.* Research in Computing Science, 150(8), 138-150.
 
 ## Technical Skills
 
 ### Programming
 
-Python, NumPy, SciPy, Scikit-learn, TensorFlow, PyTorch
+- Python
+- NumPy
+- SciPy
+- Scikit-learn
+- TensorFlow
+- PyTorch
 
 ### AI/ML
 
-Language Models, APIs, Machine Learning, Deep Learning
+- Language Models
+- APIs
+- Machine Learning
+- Deep Learning
 
 ### Computing
 
-High-performance computing, Linux, GPU/TPU optimization
+- High-performance computing
+- Linux
+- GPU/TPU optimization
 
 ## Contact
 
-**Email:** [removed]
-
+**Email:** [removed]  
 **Location:** 50% in London, United Kingdom and 50% elsewhere.
-
