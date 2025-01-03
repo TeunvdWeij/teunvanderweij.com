@@ -142,4 +142,4 @@ Nature is nice too, and I mostly enjoying running, hiking, and snowboarding. Mos
 
 ## Contact {#contact style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
-**Email:** [removed]
+**Email:** mailvan{first name}@gmail.com
