@@ -136,7 +136,7 @@ My work at ENAIS is the best example of helping to support the field, but I have
 ## Outside of work {#outside-of-work style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 I enjoy listening to music, so I go to concerts and festivals quite regularly. I listen to many genres, but my current two favorites are reggae and trance.
 
-I like travelling too, so I try to visit new places when I can. Some favorites are Scandinavia, Australia, and Zimbabwe.
+I like travelling too, so I try to visit new places when I can. Some favorites are the Nordics, Australia, and Zimbabwe.
 
 Nature is nice too, and I mostly enjoying running, hiking, and snowboarding. Most recently I have gotten into splitboarding. 
 
