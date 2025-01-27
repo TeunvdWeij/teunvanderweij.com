@@ -17,9 +17,11 @@
 
 ## About me {#about-me style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
-I am an AI safety researcher, currently working as a Resident at Mantic. We are building an AI superforecaster, and my role is best be described as a research scientist.
+I am an AI safety researcher, figuring out what to do next to make AI be safe and useful.
 
-Before Mantic, I focused on strategic underperformance on evaluations (sandbagging) by AI systems. This started MATS, and I continued working on this with a grant from the AI Safety Fund from the Frontier Model Forum.
+Until January 2025, I was a Resident at Mantic. Mantic's goal is to create an AI superforecaster, and my role was best described as a research scientist.
+
+Before Mantic, I focused on strategic underperformance on evaluations (sandbagging) by AI systems. This started at MATS, and I continued working on this with a grant from the AI Safety Fund from the Frontier Model Forum.
 
 I'm also a co-founder and board member at ENAIS (European Network for AI Safety), working to improve AI safety activities and coordination in Europe. 
 
@@ -75,9 +77,9 @@ This is a preliminary version; an updated version will be published soon.
 
 - Tice, C., Kreer, P. A., Helm-Burger, N., Shahani, P. S., Ryzhenkov, F., Haimes, J., Hofstätter, F., **van der Weij, T.** (2024). *Noise Injection Reveals Hidden Capabilities of Sandbagging Language Models.* Workshop on Socially Responsible Language Modeling Research. [arXiv preprint arXiv:2412.01784](https://arxiv.org/abs/2412.01784)
 
-I supervised this paper. Adding noise is a very interesting idea, and further experiments are needed to see if this can be used to robustly and accurately detect sandbagging.
+I supervised this paper. Adding noise is a very interesting idea, and further experiments are being conducted to see if this can be used to robustly and accurately detect sandbagging.
 
-- **van der Weij, T.**, Hofstätter, F., Jaffe, O., Brown, S. F., & Ward, F. R. (2024). *AI Sandbagging: Language Models can Strategically Underperform on Evaluations.* Workshop on Socially Responsible Language Modeling Research. [arXiv preprint arXiv:2406.07358](https://arxiv.org/abs/2406.07358)
+- **van der Weij, T.**, Hofstätter, F., Jaffe, O., Brown, S. F., & Ward, F. R. (2024). *AI Sandbagging: Language Models can Strategically Underperform on Evaluations.* ICLR 2025. [arXiv preprint arXiv:2406.07358](https://arxiv.org/abs/2406.07358)
 
 I am most proud of this paper, and I think it's my most impactful work so far. It's great to see our work being used in both technical and governance contexts, inspiring groups at prominent AI safety organizations.
 
