@@ -1,5 +1,5 @@
 # Teun van der Weij {style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px"}
-<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">Resident at Mantic</h4>
+<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">AI safety/security/alignment researcher</h4>
 <h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">Co-founder & Board Member at ENAIS</h4>
 
 ## Table of contents
@@ -17,7 +17,7 @@
 
 ## About me {#about-me style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
-I am an AI safety researcher, figuring out what to do next to make AI be safe and useful.
+I am an independent AI safety researcher, figuring out what to do next to make AI be safe and useful. (Feel free to substitue safety with either aligment or security if you prefer.) Currently I mostly work on AI sandbagging and control.
 
 Until January 2025, I was a Resident at Mantic. Mantic's goal is to create an AI superforecaster, and my role was best described as a research scientist.
 
@@ -25,7 +25,16 @@ Before Mantic, I focused on strategic underperformance on evaluations (sandbaggi
 
 I'm also a co-founder and board member at ENAIS (European Network for AI Safety), working to improve AI safety activities and coordination in Europe. 
 
+
+
 ## Work experience {#work-experience style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+
+<div style="display: flex; align-items: center;">
+  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">AI safety researcher at Mantic</h3>
+  <span style="color: #666; margin-left: 10px;">Jan 2025 – Present | Remote</span>
+</div>
+
+I am working on research related to sandbagging and AI control. I examine which (if any) control mechanisms can catch sandbagging and also general sabotage attempts.
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Resident at Mantic</h3>
@@ -68,12 +77,12 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
 
 
 ## Research papers {#research-papers style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+For another overview, see my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>
 
-<a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>
+- Hofstätter, F., **van der Weij, T.**, Teoh, J., Bartsch, H., & Ward, F. R. (2024). *The Elicitation Game: Evaluating Capability Elicitation Techniques.* Workshop on Socially Responsible Language Modeling Research. [arXiv preprint arXiv:2502.02180](https://arxiv.org/abs/2502.02180)
 
-- Hofstätter, F., **van der Weij, T.**, Teoh, J., & Ward, F. R. (2024). *The Elicitation Game: Stress-Testing Capability Elicitation Techniques.* Workshop on Socially Responsible Language Modeling Research.
+Interesting empirical work aiming to inform how evaluators can best elicit AI systems with potentially hidden capabilities.
 
-This is a preliminary version; an updated version will be published soon.
 
 - Tice, C., Kreer, P. A., Helm-Burger, N., Shahani, P. S., Ryzhenkov, F., Haimes, J., Hofstätter, F., **van der Weij, T.** (2024). *Noise Injection Reveals Hidden Capabilities of Sandbagging Language Models.* Workshop on Socially Responsible Language Modeling Research. [arXiv preprint arXiv:2412.01784](https://arxiv.org/abs/2412.01784)
 
