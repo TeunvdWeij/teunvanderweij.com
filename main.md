@@ -30,7 +30,7 @@ I'm also a co-founder and board member at ENAIS (European Network for AI Safety)
 ## Work experience {#work-experience style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
 <div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">AI safety researcher at Mantic</h3>
+  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">AI safety researcher</h3>
   <span style="color: #666; margin-left: 10px;">Jan 2025 – Present | Remote</span>
 </div>
 
@@ -77,7 +77,7 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
 
 
 ## Research papers {#research-papers style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
-For another overview, see my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>
+For another overview, see my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>. Although quite some citations are missing, so you can also look at <a href="https://www.semanticscholar.org/author/Teun-van-der-Weij/2221010426" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Semantic Scholar ↗</a>.
 
 - Hofstätter, F., **van der Weij, T.**, Teoh, J., Bartsch, H., & Ward, F. R. (2024). *The Elicitation Game: Evaluating Capability Elicitation Techniques.* Workshop on Socially Responsible Language Modeling Research. [arXiv preprint arXiv:2502.02180](https://arxiv.org/abs/2502.02180)
 
