@@ -208,19 +208,19 @@ Focus on AI, philosophy, and psychology.
 
 ## 🔸 Activity highlights {#activity-highlights style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
-### 🎤 Moderator of a Q&A
+### Moderator of a Q&A
 I moderated a Q&A event with (ex-)OpenAI and Alignment Research Center researchers (Jeff Wu, Jacob Hilton, and Daniel Kokotajlo). We had over 1,800 people attending the event on existential risks posed by AI.
 
-### 📊 Presentations
+### Presentations
 I have presented at various events on AI safety and related topics. Topics include AI sandbagging, how to contribute to AI safety without doing technical research, and more. 
 
 If you want me to present at your event, feel free to reach out. I might charge a fee for the presentation based on the event, but I am happy to discuss this.
 
-### 🌱 Field-building 
+### Field-building 
 My work at ENAIS is the best example of helping to support the field, but I have also helped organize events like the Dutch AI Safety Retreat.
 
 
-## 🌟 Outside of work {#outside-of-work style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+## 🌐 Outside of work {#outside-of-work style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 I enjoy listening to music, so I go to concerts and festivals quite regularly. I listen to many genres, but my current two favorites are reggae and trance.
 
 I like travelling too, so I try to visit new places when I can. Some favorites are the Nordics, Australia, and Zimbabwe.
