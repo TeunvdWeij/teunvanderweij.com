@@ -1,13 +1,3 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-08RF5E3N61"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-08RF5E3N61');
-</script>
-
 # Teun van der Weij {style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px"}
 
 ## 👤 About me {#about-me style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
