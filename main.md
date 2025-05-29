@@ -206,7 +206,7 @@ Focus on AI, philosophy, and psychology.
 </div>
 📊 Grade: cum laude (with distinction).
 
-## ⭐ Activity highlights {#activity-highlights style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+## 🔸 Activity highlights {#activity-highlights style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
 ### 🎤 Moderator of a Q&A
 I moderated a Q&A event with (ex-)OpenAI and Alignment Research Center researchers (Jeff Wu, Jacob Hilton, and Daniel Kokotajlo). We had over 1,800 people attending the event on existential risks posed by AI.
