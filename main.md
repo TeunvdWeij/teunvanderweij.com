@@ -71,44 +71,95 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
 ## Research papers {#research-papers style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 *For another overview, see my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>. Although quite some citations are missing, so you can also look at <a href="https://www.semanticscholar.org/author/Teun-van-der-Weij/2221010426" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Semantic Scholar ↗</a>.*
 
-#### The Elicitation Game: Evaluating Capability Elicitation Techniques (2024)
-**Authors:** Hofstätter, F., **van der Weij, T.**, Teoh, J., Bartsch, H., & Ward, F. R.  
-**Venue:** Workshop on Socially Responsible Language Modeling Research  
-**Link:** [arXiv preprint arXiv:2502.02180](https://arxiv.org/abs/2502.02180)
+### The Elicitation Game: Evaluating Capability Elicitation Techniques (2024)
+<div style="margin-left: 20px; margin-bottom: 15px;">
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> Hofstätter, F., <strong>van der Weij, T.</strong>, Teoh, J., Bartsch, H., & Ward, F. R.
+  </div>
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">🏛️ <strong>Venue:</strong></span> Workshop on Socially Responsible Language Modeling Research
+  </div>
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/abs/2502.02180" style="color: #3498db;">arXiv:2502.02180</a>
+  </div>
+  <div style="margin-top: 10px; font-style: italic; color: #555;">
+    Interesting empirical work aiming to inform how evaluators can best elicit AI systems with potentially hidden capabilities.
+  </div>
+</div>
 
-Interesting empirical work aiming to inform how evaluators can best elicit AI systems with potentially hidden capabilities.
+### Noise Injection Reveals Hidden Capabilities of Sandbagging Language Models (2024)
+<div style="margin-left: 20px; margin-bottom: 15px;">
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> Tice, C., Kreer, P. A., Helm-Burger, N., Shahani, P. S., Ryzhenkov, F., Haimes, J., Hofstätter, F., <strong>van der Weij, T.</strong>
+  </div>
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">🏛️ <strong>Venue:</strong></span> Workshop on Socially Responsible Language Modeling Research
+  </div>
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/abs/2412.01784" style="color: #3498db;">arXiv:2412.01784</a>
+  </div>
+  <div style="margin-top: 10px; font-style: italic; color: #555;">
+    I supervised this paper. Adding noise is a very interesting idea, and further experiments are being conducted to see if this can be used to robustly and accurately detect sandbagging.
+  </div>
+</div>
 
-#### Noise Injection Reveals Hidden Capabilities of Sandbagging Language Models (2024)
-**Authors:** Tice, C., Kreer, P. A., Helm-Burger, N., Shahani, P. S., Ryzhenkov, F., Haimes, J., Hofstätter, F., **van der Weij, T.**  
-**Venue:** Workshop on Socially Responsible Language Modeling Research  
-**Link:** [arXiv preprint arXiv:2412.01784](https://arxiv.org/abs/2412.01784)
+### AI Sandbagging: Language Models can Strategically Underperform on Evaluations (2024) ⭐
+<div style="margin-left: 20px; margin-bottom: 15px;">
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> <strong>van der Weij, T.</strong>, Hofstätter, F., Jaffe, O., Brown, S. F., & Ward, F. R.
+  </div>
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">🏛️ <strong>Venue:</strong></span> ICLR 2025
+  </div>
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/abs/2406.07358" style="color: #3498db;">arXiv:2406.07358</a>
+  </div>
+  <div style="margin-top: 10px; font-style: italic; color: #555;">
+    I am most proud of this paper, and I think it's my most impactful work so far. It's great to see our work being used in both technical and governance contexts, inspiring groups at prominent AI safety organizations.
+  </div>
+</div>
 
-I supervised this paper. Adding noise is a very interesting idea, and further experiments are being conducted to see if this can be used to robustly and accurately detect sandbagging.
+### Extending Activation Steering to Broad Skills and Multiple Behaviours (2024)
+<div style="margin-left: 20px; margin-bottom: 15px;">
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> <strong>van der Weij, T.</strong>, Poesio, M., & Schoots, N.
+  </div>
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/abs/2403.05767" style="color: #3498db;">arXiv:2403.05767</a>
+  </div>
+  <div style="margin-top: 10px; font-style: italic; color: #555;">
+    This paper was very helpful in improving my technical skills, both in conducting experiments and in understanding transformers. The paper contains some interesting ideas, but it's impact is limited.
+  </div>
+</div>
 
-#### AI Sandbagging: Language Models can Strategically Underperform on Evaluations (2024)
-**Authors:** **van der Weij, T.**, Hofstätter, F., Jaffe, O., Brown, S. F., & Ward, F. R.  
-**Venue:** ICLR 2025  
-**Link:** [arXiv preprint arXiv:2406.07358](https://arxiv.org/abs/2406.07358)
+### Evaluating Shutdown Avoidance of Language Models in Textual Scenarios (2023)
+<div style="margin-left: 20px; margin-bottom: 15px;">
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> <strong>van der Weij, T.</strong>, Lermen, S., & Lang, L.
+  </div>
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">🏛️ <strong>Venue:</strong></span> Safe & Trusted AI, ICLP 2023
+  </div>
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/pdf/2307.00787" style="color: #3498db;">arXiv PDF</a>
+  </div>
+  <div style="margin-top: 10px; font-style: italic; color: #555;">
+    My first project in AI safety. In some small experiments, we showed that GPT-4 has the capability to reason correctly about avoiding shutdown in certain scenarios, and actually does this in some cases.
+  </div>
+</div>
 
-I am most proud of this paper, and I think it's my most impactful work so far. It's great to see our work being used in both technical and governance contexts, inspiring groups at prominent AI safety organizations.
-
-#### Extending Activation Steering to Broad Skills and Multiple Behaviours (2024)
-**Authors:** **van der Weij, T.**, Poesio, M., & Schoots, N.  
-**Link:** [arXiv preprint arXiv:2403.05767](https://arxiv.org/abs/2403.05767)
-
-This paper was very helpful in improving my technical skills, both in conducting experiments and in understanding transformers. The paper contains some interesting ideas, but it's impact is limited.
-
-#### Evaluating Shutdown Avoidance of Language Models in Textual Scenarios (2023)
-**Authors:** **van der Weij, T.**, Lermen, S., & Lang, L.  
-**Venue:** Safe & Trusted AI, ICLP 2023  
-**Link:** [arXiv PDF](https://arxiv.org/pdf/2307.00787)
-
-My first project in AI safety. In some small experiments, we showed that GPT-4 has the capability to reason correctly about avoiding shutdown in certain scenarios, and actually does this in some cases.
-
-#### Runtime Prediction of Filter Unsupervised Feature Selection Methods (2022)
-**Authors:** **van der Weij, T.**, Soancatl Aguilar, V., & Solorio-Fernández, S.  
-**Venue:** Research in Computing Science, 150(8), 138-150  
-**Link:** [Research Publication](https://research.rug.nl/en/publications/runtime-prediction-of-filter-unsupervised-feature-selection-metho)
+### Runtime Prediction of Filter Unsupervised Feature Selection Methods (2022)
+<div style="margin-left: 20px; margin-bottom: 15px;">
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> <strong>van der Weij, T.</strong>, Soancatl Aguilar, V., & Solorio-Fernández, S.
+  </div>
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">🏛️ <strong>Venue:</strong></span> Research in Computing Science, 150(8), 138-150
+  </div>
+  <div style="margin-bottom: 8px;">
+    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://research.rug.nl/en/publications/runtime-prediction-of-filter-unsupervised-feature-selection-metho" style="color: #3498db;">Research Publication</a>
+  </div>
+</div>
 
 ## Essays {#essays style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 I have written some essays, here's a list.
