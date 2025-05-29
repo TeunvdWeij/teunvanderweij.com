@@ -21,6 +21,8 @@ TEMPLATE = """
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+
         }
 
         .container {
