@@ -1,6 +1,6 @@
 # Teun van der Weij {style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px"}
 
-## About me {#about-me style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+## 👤 About me {#about-me style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin: -15px 0 2rem;">
   <div style="flex: 1; max-width: 600px;">
@@ -13,11 +13,11 @@
   </div>
 </div>
 
-## Work experience {#work-experience style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+## 💼 Work experience {#work-experience style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Research scientist at Apollo Research</h3>
-  <span style="color: #666; margin-left: 10px;">June 2025 – Present | Zurich / London</span>
+  <span style="color: #666; margin-left: 10px;">📅 June 2025 – Present | 📍 Zurich / London</span>
 </div>
 
 I predominantly work on evaluating AI capabilities and propensities regarding scheming, and also on AI control. I mostly work from Zurich. 
@@ -25,14 +25,14 @@ I predominantly work on evaluating AI capabilities and propensities regarding sc
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">AI safety researcher</h3>
-  <span style="color: #666; margin-left: 10px;">Jan 2025 – May 2025 | Remote</span>
+  <span style="color: #666; margin-left: 10px;">📅 Jan 2025 – May 2025 | 📍 Remote</span>
 </div>
 
 I worked on research related to sandbagging and AI control. I examined which (if any) control mechanisms can catch sandbagging and also general sabotage attempts.
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Resident at Mantic</h3>
-  <span style="color: #666; margin-left: 10px;">Oct 2024 – Present | London, UK & Remote</span>
+  <span style="color: #666; margin-left: 10px;">📅 Oct 2024 – Present | 📍 London, UK & Remote</span>
 </div>
 
 Mantic has the goal of creating an AI superforecaster. I worked as a research scientist / engineer at the startup. Mantic was founded by Toby Shevlane and Ben Day.
@@ -40,23 +40,23 @@ Mantic has the goal of creating an AI superforecaster. I worked as a research sc
 
 
 <div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Independent Research on AI Sandbagging</h3>
-  <span style="color: #666; margin-left: 10px;">Aug 2024 – Oct 2024 | London, UK & Remote</span>
+  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Independent research on AI sandbagging</h3>
+  <span style="color: #666; margin-left: 10px;">📅 Aug 2024 – Oct 2024 | 📍 London, UK & Remote</span>
 </div>
 
 Continued research on strategic underperformance on evaluations (sandbagging) with a grant from the AI Safety Fund from the Frontier Model Forum. Together with Francis Rhys Ward and Felix Hofstätter, I continued the research started at MATS.
 
 <div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Research Scholar at MATS</h3>
-  <span style="color: #666; margin-left: 10px;">Jan 2024 – Jul 2024 | Berkeley, CA, US; London, UK & Remote</span>
+  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Research scholar at MATS</h3>
+  <span style="color: #666; margin-left: 10px;">📅 Jan 2024 – Jul 2024 | 📍 Berkeley, CA, US; London, UK & Remote</span>
 </div>
 
 MATS is a program to train AI safety researchers. At MATS, I mostly worked on strategic underperformance on evaluations (sandbagging) of general purpose AI with the mentorship of Francis Rhys Ward.
 <a href="https://matsprogram.org" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">matsprogram.org ↗</a>
 
 <div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Co-founder and Co-director at ENAIS</h3>
-  <span style="color: #666; margin-left: 10px;">Dec 2022 – Present | Remote</span>
+  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Co-founder and co-director at ENAIS</h3>
+  <span style="color: #666; margin-left: 10px;">📅 Dec 2022 – Present | 📍 Remote</span>
 </div>
 
 I co-founded the European Network for AI Safety (ENAIS), with a goal to improve coordination and collaboration between AI Safety researchers and policymakers in Europe.
@@ -64,13 +64,13 @@ I co-founded the European Network for AI Safety (ENAIS), with a goal to improve 
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">SPAR participant</h3>
-  <span style="color: #666; margin-left: 10px;">Feb 2023 – May 2023 | Remote</span>
+  <span style="color: #666; margin-left: 10px;">📅 Feb 2023 – May 2023 | 📍 Remote</span>
 </div>
 
 Participated in the Supervised Program for Alignment Research organized at UC Berkeley, focusing on evaluating the shutdown problem in language models.
 
 
-## Research papers {#research-papers style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+## 📄 Research papers {#research-papers style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 *For another overview, see my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>. Although quite some citations are missing, so you can also look at <a href="https://www.semanticscholar.org/author/Teun-van-der-Weij/2221010426" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Semantic Scholar ↗</a>.*
 
 ### The Elicitation Game: Evaluating Capability Elicitation Techniques (2024)
@@ -163,7 +163,7 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
   </div>
 </div>
 
-## Essays {#essays style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+## ✍️ Essays {#essays style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 I have written some essays, here's a list.
 
 *   **How to mitigate sandbagging**
@@ -179,54 +179,54 @@ I have written some essays, here's a list.
     I not only do empirical machine learning, I like philosophy too! I noticed that definitions about existential risk typically only include humans. I think this should be extended to include all sentient beings (of course humans are very important too). <a href="https://forum.effectivealtruism.org/posts/rXm5xGEGyvfBPAMF9/beyond-humans-why-all-sentient-beings-matter-in-existential-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on EA Forum ↗</a>
 
 
-## Education {#education style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+## 🎓 Education {#education style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
 <div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">MSc Student at Utrecht University</h3>
-  <span style="color: #666; margin-left: 10px;">Sep 2022 – Nov 2024 | Utrecht, Netherlands</span>
+  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">MSc at Utrecht University</h3>
+  <span style="color: #666; margin-left: 10px;">📅 Sep 2022 – Nov 2024 | 📍 Utrecht, Netherlands</span>
 </div>
 
 Coursework includes Advanced Machine Learning, Natural Language Processing, Human-centered Machine Learning, Pattern Recognition & Deep Learning, and Philosophy of AI.
 
-Grade: 8.2/10
+📊 Grade: 8.2/10
 
 <div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">BSc Student at University College Groningen</h3>
-  <span style="color: #666; margin-left: 10px;">2018 – 2021 | Groningen, Netherlands</span>
+  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">BSc at University College Groningen</h3>
+  <span style="color: #666; margin-left: 10px;">📅 2018 – 2021 | 📍 Groningen, Netherlands</span>
 </div>
 
 Focus on AI, philosophy, and psychology.
 
-Grade: summa cum laude (with highest distinction).
+📊 Grade: summa cum laude (with highest distinction).
 
 <div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">High School Student at Het Nieuwe Eemland</h3>
-  <span style="color: #666; margin-left: 10px;">2012 – 2018 | Amersfoort, Netherlands</span>
+  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">High school diploma from Het Nieuwe Eemland</h3>
+  <span style="color: #666; margin-left: 10px;">📅 2012 – 2018 | 📍 Amersfoort, Netherlands</span>
 
 </div>
-Grade: cum laude (with distinction).
+📊 Grade: cum laude (with distinction).
 
-## Activity highlights {#activity-highlights style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+## ⭐ Activity highlights {#activity-highlights style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
-### Moderator of a Q&A
+### 🎤 Moderator of a Q&A
 I moderated a Q&A event with (ex-)OpenAI and Alignment Research Center researchers (Jeff Wu, Jacob Hilton, and Daniel Kokotajlo). We had over 1,800 people attending the event on existential risks posed by AI.
 
-### Presentations
+### 📊 Presentations
 I have presented at various events on AI safety and related topics. Topics include AI sandbagging, how to contribute to AI safety without doing technical research, and more. 
 
 If you want me to present at your event, feel free to reach out. I might charge a fee for the presentation based on the event, but I am happy to discuss this.
 
-### Field-building 
+### 🌱 Field-building 
 My work at ENAIS is the best example of helping to support the field, but I have also helped organize events like the Dutch AI Safety Retreat.
 
 
-## Outside of work {#outside-of-work style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+## 🌟 Outside of work {#outside-of-work style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 I enjoy listening to music, so I go to concerts and festivals quite regularly. I listen to many genres, but my current two favorites are reggae and trance.
 
 I like travelling too, so I try to visit new places when I can. Some favorites are the Nordics, Australia, and Zimbabwe.
 
 Nature is nice too, and I mostly enjoy running, hiking, and snowboarding. Most recently I have gotten into splitboarding, which is taking a snowboard, splitting it in two to make them skis, putting skins underneath, and walking up a mountain. Then you can snowboard down again in beautiful places and hopefully great snow! 
 
-## Contact {#contact style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
+## 📧 Contact {#contact style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
-**Email:** mailvan{first name} @ google's email.
+**📧 Email:** mailvan{first name} @ google's email.
