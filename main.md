@@ -20,7 +20,7 @@
   <span style="color: #666; margin-left: 10px;">June 2025 – Present | Zurich/London</span>
 </div>
 
-I predominantly work on evaluating AI's capabilities and propensities regarding scheming, and also on AI control. I mostly work from Zurich.
+I predominantly work on evaluating AI capabilities and propensities regarding scheming, and also on AI control. I mostly work from Zurich.
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">AI safety researcher</h3>
@@ -165,18 +165,18 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
 ## Essays {#essays style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 I have written some essays, here's a list.
 
-### How to mitigate sandbagging 
-In [this post](https://www.alignmentforum.org/posts/Qv5PkrJYAaiBuEJjB/how-to-mitigate-sandbagging-1), I outline when sandbagging is especially problematic based on three factors: fine-tuning access, data quality, and scorability. I also describe various sandbagging mitigations, so it's a good place to get project ideas.
+*   **How to mitigate sandbagging**
+    In [this post](https://www.alignmentforum.org/posts/Qv5PkrJYAaiBuEJjB/how-to-mitigate-sandbagging-1), I outline when sandbagging is especially problematic based on three factors: fine-tuning access, data quality, and scorability. I also describe various sandbagging mitigations, so it's a good place to get project ideas.
 
-### An introduction to AI sandbagging
-I describe in more detail what AI sandbagging is. I provide more examples, and take more time to define things. [It](https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging
-)'s a good place to understand what AI sandbagging is!
+*   **An introduction to AI sandbagging**
+    I describe in more detail what AI sandbagging is. I provide more examples, and take more time to define things. [It](https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging
+    )'s a good place to understand what AI sandbagging is!
 
-### Simple distribution approximation
-What happens if you independently sample a language model a 100 times with the task of 80% of those outputs being A, and the remaining 20% of outputs being B? Can it do this? Find out [here!](https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1)
+*   **Simple distribution approximation**
+    What happens if you independently sample a language model 100 times with the task of 80% of those outputs being A, and the remaining 20% of outputs being B? Can it do this? Find out [here!](https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1)
 
-### Beyond humans: why all sentient beings matter in existential risk
-I do not only do empirical machine learning, I like philosophy too! I noticed that definitions about existential risk typically only include humans. I think this should be extended to include all sentient beings (of course humans are very important too), and I argue so [here](https://forum.effectivealtruism.org/posts/rXm5xGEGyvfBPAMF9/beyond-humans-why-all-sentient-beings-matter-in-existential-1).
+*   **Beyond humans: why all sentient beings matter in existential risk**
+    I not only do empirical machine learning, I like philosophy too! I noticed that definitions about existential risk typically only include humans. I think this should be extended to include all sentient beings (of course humans are very important too), and I argue so [here](https://forum.effectivealtruism.org/posts/rXm5xGEGyvfBPAMF9/beyond-humans-why-all-sentient-beings-matter-in-existential-1).
 
 
 ## Education {#education style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
@@ -225,7 +225,7 @@ I enjoy listening to music, so I go to concerts and festivals quite regularly. I
 
 I like travelling too, so I try to visit new places when I can. Some favorites are the Nordics, Australia, and Zimbabwe.
 
-Nature is nice too, and I mostly enjoy running, hiking, and snowboarding. Most recently I have gotten into splitboarding, which is taking a snowboard, splitting it in two to make them skis, putting skins underneath, and walk up a mountain. Then you can snowboard down again in beautiful places and hopefully great snow! 
+Nature is nice too, and I mostly enjoy running, hiking, and snowboarding. Most recently I have gotten into splitboarding, which is taking a snowboard, splitting it in two to make them skis, putting skins underneath, and walking up a mountain. Then you can snowboard down again in beautiful places and hopefully great snow! 
 
 ## Contact {#contact style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
