@@ -177,9 +177,10 @@ TEMPLATE = """
             <ul>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#work-experience">Work Experience</a></li>
+                <li><a href="#research-papers">Research Papers</a></li>
+                <li><a href="#essays">Essays</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#activity-highlights">Activity Highlights</a></li>
-                <li><a href="#research-papers">Research Papers</a></li>
                 <li><a href="#outside-of-work">Outside of Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
