@@ -17,10 +17,11 @@
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Research scientist at Apollo Research</h3>
-  <span style="color: #666; margin-left: 10px;">June 2025 – Present | Zurich/London</span>
+  <span style="color: #666; margin-left: 10px;">June 2025 – Present | Zurich / London</span>
 </div>
 
-I predominantly work on evaluating AI capabilities and propensities regarding scheming, and also on AI control. I mostly work from Zurich.
+I predominantly work on evaluating AI capabilities and propensities regarding scheming, and also on AI control. I mostly work from Zurich. 
+<a href="https://apolloresearch.ai/" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">apolloresearch.ai ↗</a>
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">AI safety researcher</h3>
@@ -34,7 +35,7 @@ I worked on research related to sandbagging and AI control. I examined which (if
   <span style="color: #666; margin-left: 10px;">Oct 2024 – Present | London, UK & Remote</span>
 </div>
 
-Mantic has the goal of creating an AI superforecaster. I worked as a research scientist/engineer at the startup. Mantic was founded by Toby Shevlane and Ben Day.
+Mantic has the goal of creating an AI superforecaster. I worked as a research scientist / engineer at the startup. Mantic was founded by Toby Shevlane and Ben Day.
 <a href="https://mntc.ai" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">mntc.ai ↗</a>
 
 
@@ -161,6 +162,7 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
     <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://research.rug.nl/en/publications/runtime-prediction-of-filter-unsupervised-feature-selection-metho" style="color: #3498db;">Research Publication</a>
   </div>
 </div>
+
 ## Essays {#essays style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 I have written some essays, here's a list.
 
