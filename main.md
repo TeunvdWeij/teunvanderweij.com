@@ -161,22 +161,20 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
     <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://research.rug.nl/en/publications/runtime-prediction-of-filter-unsupervised-feature-selection-metho" style="color: #3498db;">Research Publication</a>
   </div>
 </div>
-
 ## Essays {#essays style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 I have written some essays, here's a list.
 
 *   **How to mitigate sandbagging**
-    In [this post](https://www.alignmentforum.org/posts/Qv5PkrJYAaiBuEJjB/how-to-mitigate-sandbagging-1), I outline when sandbagging is especially problematic based on three factors: fine-tuning access, data quality, and scorability. I also describe various sandbagging mitigations, so it's a good place to get project ideas.
+    I outline when sandbagging is especially problematic based on three factors: fine-tuning access, data quality, and scorability. I also describe various sandbagging mitigations, so it's a good place to get project ideas. <a href="https://www.alignmentforum.org/posts/Qv5PkrJYAaiBuEJjB/how-to-mitigate-sandbagging-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on Alignment Forum ↗</a>
 
 *   **An introduction to AI sandbagging**
-    I describe in more detail what AI sandbagging is. I provide more examples, and take more time to define things. [It](https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging
-    )'s a good place to understand what AI sandbagging is!
+    I describe in more detail what AI sandbagging is. I provide more examples, and take more time to define things. A good place to understand what AI sandbagging is! <a href="https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on Alignment Forum ↗</a>
 
 *   **Simple distribution approximation**
-    What happens if you independently sample a language model 100 times with the task of 80% of those outputs being A, and the remaining 20% of outputs being B? Can it do this? Find out [here!](https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1)
+    What happens if you independently sample a language model 100 times with the task of 80% of those outputs being A, and the remaining 20% of outputs being B? Can it do this? <a href="https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on Alignment Forum ↗</a>
 
 *   **Beyond humans: why all sentient beings matter in existential risk**
-    I not only do empirical machine learning, I like philosophy too! I noticed that definitions about existential risk typically only include humans. I think this should be extended to include all sentient beings (of course humans are very important too), and I argue so [here](https://forum.effectivealtruism.org/posts/rXm5xGEGyvfBPAMF9/beyond-humans-why-all-sentient-beings-matter-in-existential-1).
+    I not only do empirical machine learning, I like philosophy too! I noticed that definitions about existential risk typically only include humans. I think this should be extended to include all sentient beings (of course humans are very important too). <a href="https://forum.effectivealtruism.org/posts/rXm5xGEGyvfBPAMF9/beyond-humans-why-all-sentient-beings-matter-in-existential-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on EA Forum ↗</a>
 
 
 ## Education {#education style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
