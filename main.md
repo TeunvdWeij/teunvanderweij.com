@@ -27,14 +27,14 @@ I predominantly work on evaluating AI's capabilities and propensities regarding 
   <span style="color: #666; margin-left: 10px;">Jan 2025 – May 2025 | Remote</span>
 </div>
 
-I am working on research related to sandbagging and AI control. I examine which (if any) control mechanisms can catch sandbagging and also general sabotage attempts.
+I worked on research related to sandbagging and AI control. I examined which (if any) control mechanisms can catch sandbagging and also general sabotage attempts.
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Resident at Mantic</h3>
   <span style="color: #666; margin-left: 10px;">Oct 2024 – Present | London, UK & Remote</span>
 </div>
 
-Mantic has the goal of creating an AI superforecaster. I am working as a research scientist at the start up. Mantic was founded by Toby Shevlane and Ben Day.
+Mantic has the goal of creating an AI superforecaster. I worked as a research scientist/engineer at the startup. Mantic was founded by Toby Shevlane and Ben Day.
 <a href="https://mntc.ai" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">mntc.ai ↗</a>
 
 
@@ -129,7 +129,7 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
     <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/abs/2403.05767" style="color: #3498db;">arXiv:2403.05767</a>
   </div>
   <div style="margin-top: 10px; font-style: italic; color: #555;">
-    This paper was very helpful in improving my technical skills, both in conducting experiments and in understanding transformers. The paper contains some interesting ideas, but it's impact is limited.
+    This paper was very helpful in improving my technical skills, both in conducting experiments and in understanding transformers. The paper contains some interesting ideas, but its impact is limited.
   </div>
 </div>
 
@@ -164,6 +164,20 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
 
 ## Essays {#essays style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 I have written some essays, here's a list.
+
+### How to mitigate sandbagging 
+In [this post](https://www.alignmentforum.org/posts/Qv5PkrJYAaiBuEJjB/how-to-mitigate-sandbagging-1), I outline when sandbagging is especially problematic based on three factors: fine-tuning access, data quality, and scorability. I also describe various sandbagging mitigations, so it's a good place to get project ideas.
+
+### An introduction to AI sandbagging
+I describe in more detail what AI sandbagging is. I provide more examples, and take more time to define things. [It](https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging
+)'s a good place to understand what AI sandbagging is!
+
+### Simple distribution approximation
+What happens if you independently sample a language model a 100 times with the task of 80% of those outputs being A, and the remaining 20% of outputs being B? Can it do this? Find out [here!](https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1)
+
+### Beyond humans: why all sentient beings matter in existential risk
+I do not only do empirical machine learning, I like philosophy too! I noticed that definitions about existential risk typically only include humans. I think this should be extended to include all sentient beings (of course humans are very important too), and I argue so [here](https://forum.effectivealtruism.org/posts/rXm5xGEGyvfBPAMF9/beyond-humans-why-all-sentient-beings-matter-in-existential-1).
+
 
 ## Education {#education style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
@@ -201,7 +215,6 @@ I moderated a Q&A event with (ex-)OpenAI and Alignment Research Center researche
 I have presented at various events on AI safety and related topics. Topics include AI sandbagging, how to contribute to AI safety without doing technical research, and more. 
 
 If you want me to present at your event, feel free to reach out. I might charge a fee for the presentation based on the event, but I am happy to discuss this.
-ure Selection Methods.* Research in Computing Science, 150(8), 138-150.
 
 ### Field-building 
 My work at ENAIS is the best example of helping to support the field, but I have also helped organize events like the Dutch AI Safety Retreat.
@@ -212,7 +225,7 @@ I enjoy listening to music, so I go to concerts and festivals quite regularly. I
 
 I like travelling too, so I try to visit new places when I can. Some favorites are the Nordics, Australia, and Zimbabwe.
 
-Nature is nice too, and I mostly enjoying running, hiking, and snowboarding. Most recently I have gotten into splitboarding, which is taking a snowboard, splitting it in two to make them skis, putting skins underneath, and walk up a mountain. Then you can snowboard down again in beautiful places and hopefully great snow! 
+Nature is nice too, and I mostly enjoy running, hiking, and snowboarding. Most recently I have gotten into splitboarding, which is taking a snowboard, splitting it in two to make them skis, putting skins underneath, and walk up a mountain. Then you can snowboard down again in beautiful places and hopefully great snow! 
 
 ## Contact {#contact style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
