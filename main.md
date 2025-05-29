@@ -229,4 +229,4 @@ Nature is nice too, and I mostly enjoy running, hiking, and snowboarding. Most r
 
 ## 📧 Contact {#contact style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
-**📧 Email:** mailvan{first name} @ google's email.
+**📧 Email:** mailvan{first name}@{google's email}
