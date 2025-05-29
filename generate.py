@@ -175,13 +175,13 @@ TEMPLATE = """
         <div class="sidebar">
             <h3>Table of Contents</h3>
             <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work-experience">Work Experience</a></li>
-                <li><a href="#research-papers">Research Papers</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#work-experience">Work experience</a></li>
+                <li><a href="#research-papers">Research papers</a></li>
                 <li><a href="#essays">Essays</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#activity-highlights">Activity Highlights</a></li>
-                <li><a href="#outside-of-work">Outside of Work</a></li>
+                <li><a href="#activity-highlights">Activity highlights</a></li>
+                <li><a href="#outside-of-work">Outside of work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
