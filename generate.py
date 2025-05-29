@@ -12,7 +12,6 @@ TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teun van der Weij - AI Safety Researcher</title>
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-08RF5E3N61"></script>
@@ -24,6 +23,7 @@ TEMPLATE = """
       gtag('config', 'G-08RF5E3N61');
     </script>
     
+    <title>Teun van der Weij - AI Safety Researcher</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
