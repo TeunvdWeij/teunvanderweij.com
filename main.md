@@ -1,6 +1,14 @@
 # Teun van der Weij {style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px"}
-<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">Research Scientist at Apollo Research</h4>
-<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">Co-founder & Board Member at the European Network for AI Safety</h4>
+
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <h4 style="color: #666; margin: 0; font-weight: 500">Research Scientist at Apollo Research</h4>
+    <h4 style="color: #666; margin: 0; font-weight: 500">Co-founder & Board Member at the European Network for AI Safety</h4>
+  </div>
+  <div style="flex-shrink: 0; margin-left: 20px;">
+    <img src="weij002_cropped.jpg" alt="teun van der weij" width="200" height="200" style="border-radius: 50%;">
+  </div>
+</div>
 
 ## Table of contents
 - [About Me](#about-me)
@@ -10,10 +18,6 @@
 - [Research Papers](#research-papers)
 - [Outside of Work](#outside-of-work)
 - [Contact](#contact)
-
-<div style="overflow: hidden; margin-top: -200px">
-<img src="weij002_cropped.jpg" alt="teun van der weij" width="200" height="200" style="float: right; margin-left: 20px; margin-bottom: 10px; border-radius: 50%">
-</div>
 
 ## About me {#about-me style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
