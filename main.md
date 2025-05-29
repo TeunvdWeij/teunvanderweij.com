@@ -1,6 +1,6 @@
 # Teun van der Weij {style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px"}
-<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">AI safety/security/alignment researcher</h4>
-<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">Co-founder & Board Member at ENAIS</h4>
+<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">Research Scientist at Apollo Research</h4>
+<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">Co-founder & Board Member at the European Network for AI Safety</h4>
 
 ## Table of contents
 - [About Me](#about-me)
@@ -17,21 +17,20 @@
 
 ## About me {#about-me style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
-I am an independent AI safety researcher, figuring out what to do next to make AI be safe and useful. (Feel free to substitue safety with either aligment or security if you prefer.) Currently I mostly work on AI sandbagging and control.
+I am a Research Scientist at Apollo Research in Zurich. I care about making the world a better place effectively, and therefore I work on making AI systems safer.
 
-Until January 2025, I was a Resident at Mantic. Mantic's goal is to create an AI superforecaster, and my role was best described as a research scientist.
-
-Before Mantic, I focused on strategic underperformance on evaluations (sandbagging) by AI systems. This started at MATS, and I continued working on this with a grant from the AI Safety Fund from the Frontier Model Forum.
-
-I'm also a co-founder and board member at ENAIS (European Network for AI Safety), working to improve AI safety activities and coordination in Europe. 
-
-
+I like music, listening to various genres from reggae to trance. 
 
 ## Work experience {#work-experience style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
 <div style="display: flex; align-items: center;">
+  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Research scientist at Apollo Research</h3>
+  <span style="color: #666; margin-left: 10px;">June 2025 – Present | Zurich/London</span>
+</div>
+
+<div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">AI safety researcher</h3>
-  <span style="color: #666; margin-left: 10px;">Jan 2025 – Present | Remote</span>
+  <span style="color: #666; margin-left: 10px;">Jan 2025 – May 2025 | Remote</span>
 </div>
 
 I am working on research related to sandbagging and AI control. I examine which (if any) control mechanisms can catch sandbagging and also general sabotage attempts.
@@ -77,7 +76,7 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
 
 
 ## Research papers {#research-papers style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
-For another overview, see my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>. Although quite some citations are missing, so you can also look at <a href="https://www.semanticscholar.org/author/Teun-van-der-Weij/2221010426" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Semantic Scholar ↗</a>.
+*For another overview, see my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>. Although quite some citations are missing, so you can also look at <a href="https://www.semanticscholar.org/author/Teun-van-der-Weij/2221010426" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Semantic Scholar ↗</a>.*
 
 - Hofstätter, F., **van der Weij, T.**, Teoh, J., Bartsch, H., & Ward, F. R. (2024). *The Elicitation Game: Evaluating Capability Elicitation Techniques.* Workshop on Socially Responsible Language Modeling Research. [arXiv preprint arXiv:2502.02180](https://arxiv.org/abs/2502.02180)
 
@@ -149,8 +148,8 @@ I enjoy listening to music, so I go to concerts and festivals quite regularly. I
 
 I like travelling too, so I try to visit new places when I can. Some favorites are the Nordics, Australia, and Zimbabwe.
 
-Nature is nice too, and I mostly enjoying running, hiking, and snowboarding. Most recently I have gotten into splitboarding. 
+Nature is nice too, and I mostly enjoying running, hiking, and snowboarding. Most recently I have gotten into splitboarding, which is taking a snowboard, splitting it in two to make them skis, putting skins underneath, and walk up a mountain. Then you can snowboard down again in beautiful places and hopefully great snow! 
 
 ## Contact {#contact style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
-**Email:** mailvan{first name}@gmail.com
+**Email:** mailvan{first name} @ google's email.
