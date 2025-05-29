@@ -21,14 +21,68 @@ TEMPLATE = """
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
-            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+        }
 
+        .layout-wrapper {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #fff;
+            padding: 2rem 1.5rem;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+            border-right: 3px solid #3498db;
+        }
+
+        .sidebar h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 0.8rem;
+        }
+
+        .sidebar a {
+            color: #34495e;
+            text-decoration: none;
+            display: block;
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            border-left: 3px solid transparent;
+        }
+
+        .sidebar a:hover {
+            background-color: #f8f9fa;
+            border-left-color: #3498db;
+            color: #2c3e50;
+            transform: translateX(5px);
+        }
+
+        .main-content {
+            flex: 1;
+            margin-left: 250px;
+            padding: 2rem;
         }
 
         .container {
             max-width: 900px;
             margin: 0 auto;
-            padding: 2rem;
         }
 
         h1 {
@@ -107,11 +161,60 @@ TEMPLATE = """
             color: #666;
             font-style: normal;
         }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 200px;
+            }
+            
+            .main-content {
+                margin-left: 200px;
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .layout-wrapper {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                position: relative;
+                width: 100%;
+                height: auto;
+                border-right: none;
+                border-bottom: 3px solid #3498db;
+            }
+            
+            .main-content {
+                margin-left: 0;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        {{ content }}
+    <div class="layout-wrapper">
+        <!-- Sidebar with Table of Contents -->
+        <div class="sidebar">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work-experience">Work Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#activity-highlights">Activity Highlights</a></li>
+                <li><a href="#research-papers">Research Papers</a></li>
+                <li><a href="#outside-of-work">Outside of Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="container">
+                {{ content }}
+            </div>
+        </div>
     </div>
 </body>
 </html>
