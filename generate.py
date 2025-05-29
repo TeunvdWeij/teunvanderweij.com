@@ -126,30 +126,6 @@ TEMPLATE = """
             margin-bottom: 0.5rem;
         }
 
-        /* Style for the contact section */
-        #contact {
-            background-color: #fff;
-            padding: 2rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            margin-top: 2rem;
-        }
-
-        /* Style for the skills section */
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-
-        .skill-category {
-            background-color: #fff;
-            padding: 1rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
         /* Style for papers list */
         .papers-list li {
             margin-bottom: 1rem;
