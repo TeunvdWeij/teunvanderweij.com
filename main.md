@@ -2,12 +2,11 @@
 
 ## About me {#about-me style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
-<div style="display: flex; align-items: flex-start; gap: 30px; margin: -20px 0 2rem;">
+<div style="display: flex; align-items: flex-start; gap: 30px; margin: -15px 0 2rem;">
   <div style="flex: 1; max-width: 600px;">
-    <p>I am a Research Scientist at Apollo Research in Zurich. I care about making the world a better place effectively, and therefore I work on making AI systems safer.
-    
-    I am also a board member at the European Network for AI Safety which I co-founded. We are supporting AI safety activity throughout Europe.
-    </p>
+    <p>I am a Research Scientist at Apollo Research in Zurich. I care about making the world a better place effectively, and therefore I work on making AI systems safer.</p>
+
+    <p>I am also a board member at the European Network for AI Safety which I co-founded. We are supporting AI safety activity throughout Europe.</p>
   </div>
   <div style="flex-shrink: 0;">
     <img src="weij002_cropped.jpg" alt="teun van der weij" width="200" height="200" style="border-radius: 50%;">
@@ -20,6 +19,8 @@
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Research scientist at Apollo Research</h3>
   <span style="color: #666; margin-left: 10px;">June 2025 – Present | Zurich/London</span>
 </div>
+
+I predominantly work on evaluating AI's capabilities and propensities regarding scheming, and also on AI control. I mostly work from Zurich.
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">AI safety researcher</h3>
