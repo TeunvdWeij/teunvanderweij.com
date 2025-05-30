@@ -4,7 +4,7 @@
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin: -15px 0 2rem;">
   <div style="flex: 1; max-width: 600px;">
-    <p>I am a Research Scientist at Apollo Research in Zurich. I care about making the world a better place effectively, and therefore I work on making AI systems safer.</p>
+    <p>I am a Research Scientist at Apollo Research in Zurich. I care about effectively making the world a better place, and therefore I work on making AI systems safer.</p>
 
     <p>I am also a board member at the European Network for AI Safety which I co-founded. We are supporting AI safety activity throughout Europe.</p>
   </div>
@@ -28,14 +28,14 @@ I predominantly work on evaluating AI capabilities and propensities regarding sc
   <span style="color: #666; margin-left: 10px;">📅 Jan 2025 – May 2025 | 📍 Remote</span>
 </div>
 
-I worked on research related to sandbagging and AI control. I examined which (if any) control mechanisms can catch sandbagging and also general sabotage attempts.
+I worked on research related to AI sandbagging and control. I examined how well monitors can catch both sandbagging and more general sabotage attempts.
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Resident at Mantic</h3>
   <span style="color: #666; margin-left: 10px;">📅 Oct 2024 – Present | 📍 London, UK & Remote</span>
 </div>
 
-Mantic has the goal of creating an AI superforecaster. I worked as a research scientist / engineer at the startup. Mantic was founded by Toby Shevlane and Ben Day.
+Mantic has the goal of creating an AI superforecaster. I worked as a research scientist / engineer at the startup.
 <a href="https://mntc.ai" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">mntc.ai ↗</a>
 
 
@@ -44,7 +44,7 @@ Mantic has the goal of creating an AI superforecaster. I worked as a research sc
   <span style="color: #666; margin-left: 10px;">📅 Aug 2024 – Oct 2024 | 📍 London, UK & Remote</span>
 </div>
 
-Continued research on strategic underperformance on evaluations (sandbagging) with a grant from the AI Safety Fund from the Frontier Model Forum. Together with Francis Rhys Ward and Felix Hofstätter, I continued the research started at MATS.
+I continued research on strategic underperformance on evaluations (sandbagging) with a grant from the AI Safety Fund from the Frontier Model Forum. Together with Francis Rhys Ward and Felix Hofstätter, I continued the research started at MATS.
 
 <div style="display: flex; align-items: center;">
   <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Research scholar at MATS</h3>
@@ -71,7 +71,7 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
 
 
 ## 📄 Research papers {#research-papers style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
-*For another overview, see my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>. Although quite some citations are missing, so you can also look at <a href="https://www.semanticscholar.org/author/Teun-van-der-Weij/2221010426" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Semantic Scholar ↗</a>.*
+*Here is my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>. Although quite some citations are missing, so you can also look at (which misses different citations) <a href="https://www.semanticscholar.org/author/Teun-van-der-Weij/2221010426" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Semantic Scholar ↗</a>.*
 
 ### The Elicitation Game: Evaluating Capability Elicitation Techniques (2024)
 <div style="margin-left: 20px; margin-bottom: 15px;">
@@ -85,7 +85,7 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
     <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/abs/2502.02180" style="color: #3498db;">arXiv:2502.02180</a>
   </div>
   <div style="margin-top: 10px; font-style: italic; color: #555;">
-    Interesting empirical work aiming to inform how evaluators can best elicit AI systems with potentially hidden capabilities.
+    We conducted empirical work aiming to inform evaluators on how to best elicit AI systems with potentially hidden capabilities, and what type of access they'd need.
   </div>
 </div>
 
@@ -117,7 +117,7 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
     <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/abs/2406.07358" style="color: #3498db;">arXiv:2406.07358</a>
   </div>
   <div style="margin-top: 10px; font-style: italic; color: #555;">
-    I am most proud of this paper, and I think it's my most impactful work so far. It's great to see our work being used in both technical and governance contexts, inspiring groups at prominent AI safety organizations.
+    I am most proud of this paper, and I think it's my most impactful work so far. It's great to see our work being used in both technical and governance contexts, and also inspiring the creation of teams at prominent AI safety organizations.
   </div>
 </div>
 
@@ -146,7 +146,7 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
     <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/pdf/2307.00787" style="color: #3498db;">arXiv PDF</a>
   </div>
   <div style="margin-top: 10px; font-style: italic; color: #555;">
-    My first project in AI safety. In some small experiments, we showed that GPT-4 has the capability to reason correctly about avoiding shutdown in certain scenarios, and actually does this in some cases.
+    My first project in AI safety. In some small experiments, we showed that GPT-4 has the capability to reason correctly about avoiding shutdown in certain scenarios, and actually does this in some cases. GPT-3.5 was substantially worse at reasoning about what to do for which reasons.
   </div>
 </div>
 
@@ -159,7 +159,7 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
     <span style="color: #666; font-size: 0.9em;">🏛️ <strong>Venue:</strong></span> Research in Computing Science, 150(8), 138-150
   </div>
   <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://research.rug.nl/en/publications/runtime-prediction-of-filter-unsupervised-feature-selection-metho" style="color: #3498db;">Research Publication</a>
+    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://research.rug.nl/en/publications/runtime-prediction-of-filter-unsupervised-feature-selection-metho" style="color: #3498db;">University of Groningen</a>
   </div>
 </div>
 
@@ -167,16 +167,16 @@ Participated in the Supervised Program for Alignment Research organized at UC Be
 I have written some essays, here's a list.
 
 *   **How to mitigate sandbagging**
-    I outline when sandbagging is especially problematic based on three factors: fine-tuning access, data quality, and scorability. I also describe various sandbagging mitigations, so it's a good place to get project ideas. <a href="https://www.alignmentforum.org/posts/Qv5PkrJYAaiBuEJjB/how-to-mitigate-sandbagging-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on Alignment Forum ↗</a>
+    I outline when sandbagging is especially problematic based differences regarding three factors: fine-tuning access, data quality, and scorability. I also describe various sandbagging mitigations, so it's a good place to get project ideas. <a href="https://www.alignmentforum.org/posts/Qv5PkrJYAaiBuEJjB/how-to-mitigate-sandbagging-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on the Alignment Forum ↗</a>
 
 *   **An introduction to AI sandbagging**
-    I describe in more detail what AI sandbagging is. I provide more examples, and take more time to define things. A good place to understand what AI sandbagging is! <a href="https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on Alignment Forum ↗</a>
+    I describe in more detail what AI sandbagging is. I provide six examples, and I take my time to define terms. This essay is a good place to understand what AI sandbagging is! <a href="https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on the Alignment Forum ↗</a>
 
 *   **Simple distribution approximation**
-    What happens if you independently sample a language model 100 times with the task of 80% of those outputs being A, and the remaining 20% of outputs being B? Can it do this? <a href="https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on Alignment Forum ↗</a>
+    What happens if you independently sample a language model 100 times with the task of 80% of those outputs being A, and the remaining 20% of outputs being B? Can it do this? <a href="https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on the Alignment Forum ↗</a>
 
 *   **Beyond humans: why all sentient beings matter in existential risk**
-    I not only do empirical machine learning, I like philosophy too! I noticed that definitions about existential risk typically only include humans. I think this should be extended to include all sentient beings (of course humans are very important too). <a href="https://forum.effectivealtruism.org/posts/rXm5xGEGyvfBPAMF9/beyond-humans-why-all-sentient-beings-matter-in-existential-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on EA Forum ↗</a>
+    I do not only think about empirical machine learning, I like philosophy too! For this essay, I noticed that definitions about existential risk typically only include humans. I think this should be extended to include all sentient beings (of course humans are very important too). <a href="https://forum.effectivealtruism.org/posts/rXm5xGEGyvfBPAMF9/beyond-humans-why-all-sentient-beings-matter-in-existential-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on the EA Forum ↗</a>
 
 
 ## 🎓 Education {#education style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
@@ -195,7 +195,7 @@ Coursework includes Advanced Machine Learning, Natural Language Processing, Huma
   <span style="color: #666; margin-left: 10px;">📅 2018 – 2021 | 📍 Groningen, Netherlands</span>
 </div>
 
-Focus on AI, philosophy, and psychology.
+For this programme I had the freedom to choose courses in any discipline, and I used that freedom. However, most of my courses were in AI, philosophy, and psychology. I think very highly of this programme, and would definitely recommend it to people choosing bachelors.
 
 📊 Grade: summa cum laude (with highest distinction).
 
