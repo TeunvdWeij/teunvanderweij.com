@@ -4,393 +4,457 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Teun van der Weij - AI Safety Researcher</title>
+    <meta name="description" content="Teun van der Weij is a Member of Technical Staff at Apollo Research in Zürich, leading the RL Dynamics project. He works on making AI systems safer.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="canonical" href="https://teunvanderweij.com/">
+    <meta property="og:title" content="Teun van der Weij - AI Safety Researcher">
+    <meta property="og:description" content="Member of Technical Staff at Apollo Research in Zürich, leading the RL Dynamics project.">
+    <meta property="og:image" content="https://teunvanderweij.com/teun_apollo_2025.jpg">
+    <meta property="og:url" content="https://teunvanderweij.com/">
+    <meta property="og:type" content="website">
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+            color: #1a1a1a;
+            background-color: #ffffff;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
         }
 
-        .layout-wrapper {
-            display: flex;
-            min-height: 100vh;
-        }
-
-        .sidebar {
-            width: 250px;
-            background-color: #fff;
-            padding: 2rem 1.5rem;
-            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-            position: fixed;
-            height: 100vh;
-            overflow-y: auto;
-            border-right: 3px solid #3498db;
-        }
-
-        .sidebar h3 {
-            color: #2c3e50;
-            margin-bottom: 1rem;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 0.5rem;
-        }
-
-        .sidebar ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .sidebar li {
-            margin-bottom: 0.8rem;
-        }
-
-        .sidebar a {
-            color: #34495e;
-            text-decoration: none;
-            display: block;
-            padding: 0.5rem 0.75rem;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-            border-left: 3px solid transparent;
-        }
-
-        .sidebar a:hover {
-            background-color: #f8f9fa;
-            border-left-color: #3498db;
-            color: #2c3e50;
-            transform: translateX(5px);
-        }
-
-        .main-content {
-            flex: 1;
-            margin-left: 250px;
-            padding: 2rem;
-        }
-
-        .container {
-            max-width: 900px;
+        main {
+            max-width: 68ch;
             margin: 0 auto;
+            padding: 0 1.25rem 4rem;
+        }
+
+        header {
+            margin: 3.5rem 0 3rem;
+        }
+
+        .monogram {
+            width: 84px;
+            height: 84px;
+            flex-shrink: 0;
         }
 
         h1 {
-            color: #2c3e50;
-            text-align: center;
-            padding: 2rem;
-            background-color: #fff;
-            margin-top: 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-size: 2.3rem;
+            font-weight: normal;
+            margin: 0;
+            letter-spacing: 0.01em;
+        }
+
+        .social {
+            display: flex;
+            align-items: center;
+            gap: 1.1rem;
+            margin-top: 0.8rem;
+        }
+
+        .social a {
+            line-height: 0;
+        }
+
+        .social svg {
+            width: 20px;
+            height: 20px;
+            fill: #666;
+            transition: fill 0.15s;
+        }
+
+        .social a:hover svg {
+            fill: #000;
+        }
+
+        nav {
+            margin-top: 1.25rem;
+            font-size: 0.95rem;
+            color: #999;
+        }
+
+        nav a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 0.3rem;
+        }
+
+        nav a:hover {
+            color: #1a1a1a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
         }
 
         h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 0.5rem;
-            margin-top: 2rem;
+            font-size: 1.45rem;
+            font-weight: normal;
+            margin: 3rem 0 1rem;
+        }
+
+        details,
+        .plain-section {
+            margin: 1.6rem -1.25rem 0;
+            padding: 1.1rem 1.25rem;
+            border-radius: 10px;
+        }
+
+        .plain-section h2 {
+            margin: 0 0 1rem;
+        }
+
+        .tint-1 { background-color: #f7f5fb; }
+        .tint-2 { background-color: #fbf4f6; }
+        .tint-3 { background-color: #f2f7fb; }
+        .tint-4 { background-color: #f3f8f4; }
+        .tint-5 { background-color: #fbf7ef; }
+        .tint-6 { background-color: #f5f5f9; }
+
+        summary {
+            cursor: pointer;
+            list-style: none;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary h2 {
+            display: inline;
+            margin: 0;
+        }
+
+        summary::before {
+            content: "▸ ";
+            color: #999;
+            font-size: 1rem;
+        }
+
+        details[open] > summary::before {
+            content: "▾ ";
+        }
+
+        .section-body {
+            margin-top: 1rem;
+        }
+
+        .contact-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .contact-row p {
+            margin: 0;
+        }
+
+        .photo-word {
+            border-bottom: 1px dotted #999;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .photo-word img {
+            position: absolute;
+            bottom: 1.7em;
+            left: 50%;
+            transform: translateX(-50%) rotate(-2deg);
+            width: 240px;
+            max-width: 70vw;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+            border: 5px solid #fff;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .photo-word:hover img,
+        .photo-word.open img {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) rotate(-2deg) translateY(-5px);
         }
 
         h3 {
-            color: #34495e;
-        }
-
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
+            font-size: 1.1rem;
+            margin: 1.9rem 0 0.15rem;
         }
 
         p {
-            margin-bottom: 1rem;
+            margin: 0 0 1rem;
+        }
+
+        a {
+            color: #1a1a1a;
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 2px;
+        }
+
+        a:hover {
+            text-decoration-thickness: 2px;
+        }
+
+        .meta {
+            color: #666;
+            font-size: 0.92rem;
+            margin: 0 0 0.6rem;
+        }
+
+        .subhead {
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-size: 0.85rem;
+            color: #666;
+            margin: 2.25rem 0 0.25rem;
+        }
+
+        .meta a {
+            color: #666;
+        }
+
+        .about {
+            display: flex;
+            gap: 1.75rem;
+            align-items: flex-start;
+        }
+
+        .about img {
+            border-radius: 50%;
+            flex-shrink: 0;
         }
 
         ul {
-            padding-left: 2rem;
+            padding-left: 1.25rem;
         }
 
         li {
-            margin-bottom: 0.5rem;
-        }
-
-        /* Style for papers list */
-        .papers-list li {
-            margin-bottom: 1rem;
-            padding-left: 1rem;
-            border-left: 3px solid #2c3e50;
-        }
-
-        em {
-            color: #666;
-            font-style: normal;
-        }
-
-        /* Mobile responsiveness */
-        @media (max-width: 768px) {
-            .sidebar {
-                width: 200px;
-            }
-            
-            .main-content {
-                margin-left: 200px;
-                padding: 1rem;
-            }
+            margin-bottom: 0.6rem;
         }
 
         @media (max-width: 640px) {
-            .layout-wrapper {
-                flex-direction: column;
+            .about {
+                flex-direction: column-reverse;
+                align-items: center;
+                text-align: left;
             }
-            
-            .sidebar {
-                position: relative;
-                width: 100%;
-                height: auto;
-                border-right: none;
-                border-bottom: 3px solid #3498db;
-            }
-            
-            .main-content {
-                margin-left: 0;
+
+            header {
+                margin: 2rem 0 2rem;
             }
         }
     </style>
 </head>
 <body>
-    <div class="layout-wrapper">
-        <!-- Sidebar with Table of Contents -->
-        <div class="sidebar">
-            <h3>Table of Contents</h3>
-            <ul>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#work-experience">Work experience</a></li>
-                <li><a href="#research-papers">Research papers</a></li>
-                <li><a href="#essays">Essays</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#activity-highlights">Activity highlights</a></li>
-                <li><a href="#outside-of-work">Outside of work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-
-        <!-- Main Content -->
-        <div class="main-content">
-            <div class="container">
-                <h1 style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px">Teun van der Weij</h1>
-<h2 id="about-me" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">👤 About me</h2>
-<div style="display: flex; align-items: flex-start; gap: 30px; margin: -15px 0 2rem;">
-  <div style="flex: 1; max-width: 600px;">
-    <p>I am a Research Scientist at Apollo Research in Zurich. I care about effectively making the world a better place, and therefore I work on making AI systems safer.</p>
-
-    <p>I am also a board member at the European Network for AI Safety which I co-founded. We are supporting AI safety activity throughout Europe.</p>
+    <main>
+        <header>
+            <h1>Teun van der Weij</h1>
+            <div class="social">
+                <a href="https://x.com/Teun_vd_Weij" aria-label="X (Twitter)" title="X"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+                <a href="https://www.linkedin.com/in/teun-van-der-weij/" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></a>
+                <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" aria-label="Google Scholar" title="Google Scholar"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>            </div>
+            <nav>
+                <a href="#about-me">About</a> ·
+                <a href="#work-experience">Work</a> ·
+                <a href="#research-papers">Papers</a> ·
+                <a href="#essays">Essays</a> ·
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        
+<details open class="tint-1">
+<summary><h2 id="about-me">About me</h2></summary>
+<div class="section-body">
+<div class="about">
+  <div>
+    <p>I am a Member of Technical Staff at <a href="https://apolloresearch.ai/">Apollo Research</a> in Zürich, where I lead the RL Dynamics project. I care about effectively making the world a better place, and therefore I work on making AI systems safer.</p>
+    <p>I am also a board member at the <a href="https://enais.co">European Network for AI Safety</a> which I co-founded, and an advisor to <a href="https://safeainetherlands.org/">Safe AI Netherlands (SAIN)</a>.</p>
   </div>
-  <div style="flex-shrink: 0;">
-    <img src="weij002_cropped.jpg" alt="Portrait photo of Teun van der Weij, Research Scientist at Apollo Research" width="200" height="200" style="border-radius: 50%;" loading="eager">
-  </div>
+  <img src="teun_apollo_2025.jpg" alt="Portrait photo of Teun van der Weij, Member of Technical Staff at Apollo Research" width="180" height="180" loading="eager">
 </div>
 
-<h2 id="work-experience" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">💼 Work experience</h2>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Research scientist at Apollo Research</h3>
-  <span style="color: #666; margin-left: 10px;">📅 June 2025 – Present | 📍 Zurich / London</span>
 </div>
+</details>
+<details open class="tint-2">
+<summary><h2 id="work-experience">Work experience</h2></summary>
+<div class="section-body">
+<p class="subhead">Current</p>
 
-<p>I predominantly work on evaluating AI capabilities and propensities regarding scheming, and also on AI control. I mostly work from Zurich. 
-<a href="https://apolloresearch.ai/" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">apolloresearch.ai ↗</a></p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">AI safety researcher</h3>
-  <span style="color: #666; margin-left: 10px;">📅 Jan 2025 – May 2025 | 📍 Remote</span>
-</div>
+<h3>Member of Technical Staff at Apollo Research</h3>
+<p class="meta">June 2025 – Present · Zürich / London · <a href="https://apolloresearch.ai/">apolloresearch.ai ↗</a></p>
+
+<p>I am the project lead for the RL Dynamics project, in which we study how undesired behaviors emerge during reinforcement learning. Before that, I predominantly worked on evaluating AI capabilities and propensities regarding scheming, and on AI control. I mostly work from Zürich.</p>
+<h3>Advisor at Safe AI Netherlands (SAIN)</h3>
+<p class="meta">May 2026 – Present · Part-time · <a href="https://safeainetherlands.org/">safeainetherlands.org ↗</a></p>
+
+<p>I advise Safe AI Netherlands, an organization supporting AI safety work in the Netherlands.</p>
+<h3>Co-founder and board member at ENAIS</h3>
+<p class="meta">Dec 2022 – Present · Remote · <a href="https://enais.co">enais.co ↗</a></p>
+
+<p>I co-founded the European Network for AI Safety (ENAIS), with a goal to improve coordination and collaboration between AI Safety researchers and policymakers in Europe. I was co-director until September 2024, and since October 2024 I serve as a board member.</p>
+<p class="subhead">Past</p>
+
+<h3>Independent AI safety researcher</h3>
+<p class="meta">Jan 2025 – May 2025 · Remote</p>
 
 <p>I worked on research related to AI sandbagging and control. I examined how well monitors can catch both sandbagging and more general sabotage attempts.</p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Resident at Mantic</h3>
-  <span style="color: #666; margin-left: 10px;">📅 Oct 2024 – Present | 📍 London, UK & Remote</span>
-</div>
+<h3>Resident at Mantic</h3>
+<p class="meta">Oct 2024 – Feb 2025 · London, UK & Remote · <a href="https://mntc.ai">mntc.ai ↗</a></p>
 
-<p>Mantic has the goal of creating an AI superforecaster. I worked as a research scientist / engineer at the startup.
-<a href="https://mntc.ai" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">mntc.ai ↗</a></p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Independent research on AI sandbagging</h3>
-  <span style="color: #666; margin-left: 10px;">📅 Aug 2024 – Oct 2024 | 📍 London, UK & Remote</span>
-</div>
+<p>Mantic has the goal of creating an AI superforecaster. I worked as a research scientist / engineer at the startup.</p>
+<h3>Independent research on AI sandbagging</h3>
+<p class="meta">Jul 2024 – Oct 2024 · London, UK & Remote</p>
 
 <p>I continued research on strategic underperformance on evaluations (sandbagging) with a grant from the AI Safety Fund from the Frontier Model Forum. Together with Francis Rhys Ward and Felix Hofstätter, I continued the research started at MATS.</p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Research scholar at MATS</h3>
-  <span style="color: #666; margin-left: 10px;">📅 Jan 2024 – Jul 2024 | 📍 Berkeley, CA, US; London, UK & Remote</span>
-</div>
+<h3>Research scholar at MATS</h3>
+<p class="meta">Jan 2024 – Jul 2024 · Berkeley, CA, US; London, UK & Remote · <a href="https://matsprogram.org">matsprogram.org ↗</a></p>
 
-<p>MATS is a program to train AI safety researchers. At MATS, I mostly worked on strategic underperformance on evaluations (sandbagging) of general purpose AI with the mentorship of Francis Rhys Ward.
-<a href="https://matsprogram.org" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">matsprogram.org ↗</a></p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Co-founder and co-director at ENAIS</h3>
-  <span style="color: #666; margin-left: 10px;">📅 Dec 2022 – Present | 📍 Remote</span>
-</div>
-
-<p>I co-founded the European Network for AI Safety (ENAIS), with a goal to improve coordination and collaboration between AI Safety researchers and policymakers in Europe.
-<a href="https://enais.co" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">enais.co ↗</a></p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">SPAR participant</h3>
-  <span style="color: #666; margin-left: 10px;">📅 Feb 2023 – May 2023 | 📍 Remote</span>
-</div>
+<p>MATS is a program to train AI safety researchers. At MATS, I mostly worked on strategic underperformance on evaluations (sandbagging) of general purpose AI with the mentorship of Francis Rhys Ward.</p>
+<h3>SPAR participant</h3>
+<p class="meta">Feb 2023 – May 2023 · Remote</p>
 
 <p>Participated in the Supervised Program for Alignment Research organized at UC Berkeley, focusing on evaluating the shutdown problem in language models.</p>
-<h2 id="research-papers" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">📄 Research papers</h2>
-<p><em>Here is my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>. Although quite some citations are missing, so you can also look at (which misses different citations) <a href="https://www.semanticscholar.org/author/Teun-van-der-Weij/2221010426" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Semantic Scholar ↗</a>.</em></p>
-<h3>The Elicitation Game: Evaluating Capability Elicitation Techniques (2024)</h3>
-<div style="margin-left: 20px; margin-bottom: 15px;">
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> Hofstätter, F., <strong>van der Weij, T.</strong>, Teoh, J., Bartsch, H., & Ward, F. R.
-  </div>
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🏛️ <strong>Venue:</strong></span> Workshop on Socially Responsible Language Modeling Research
-  </div>
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/abs/2502.02180" style="color: #3498db;">arXiv:2502.02180</a>
-  </div>
-  <div style="margin-top: 10px; font-style: italic; color: #555;">
-    We conducted empirical work aiming to inform evaluators on how to best elicit AI systems with potentially hidden capabilities, and what type of access they'd need.
-  </div>
-</div>
+<h3>Earlier jobs</h3>
+<p class="meta">2016 – 2022</p>
 
+<p>Before AI safety, I did a variety of other things:</p>
+<ul>
+<li><strong>Junior customer insights analyst at Samotics</strong> (Nov 2021 – Feb 2022): I built a pipeline for automatic report generation.</li>
+<li><strong>Grocery delivery driver at Jumbo Supermarkten</strong> (Sep 2021 – Nov 2021).</li>
+<li><strong>Teaching assistant at the University of Groningen</strong> (2020 – 2021): for courses on Python programming, mathematics, machine learning, advanced programming, and computational methods; I was also a student mentor.</li>
+<li><strong>Sushi delivery driver at SushiPoint</strong> (Apr 2017 – Apr 2018).</li>
+<li><strong>Dishwasher at A la minute</strong> (Mar 2016 – Mar 2017).</li>
+</ul>
+<p>I also took a gap year (Feb 2022 – Aug 2022) to travel for half a year, and to further consider my life and career values.</p>
+</div>
+</details>
+<details open class="tint-3">
+<summary><h2 id="research-papers">Research papers</h2></summary>
+<div class="section-body">
+<p><em>Here is my <a href="https://scholar.google.com/citations?hl=en&amp;user=-fMmbSYAAAAJ">Google Scholar ↗</a>.</em></p>
+<p class="subhead">Highlights</p>
+
+<h3>AI Sandbagging: Language Models can Strategically Underperform on Evaluations (2024)</h3>
+<p class="meta"><strong>van der Weij, T.</strong>, Hofstätter, F., Jaffe, O., Brown, S. F., &amp; Ward, F. R. · ICLR 2025 · <a href="https://arxiv.org/abs/2406.07358">arXiv:2406.07358</a></p>
+
+<p>I am most proud of this paper, and I think it's my most impactful work so far. It's great to see our work being used in both technical and governance contexts, and also inspiring the creation of teams at prominent AI safety organizations.</p>
+<h3>Stress Testing Deliberative Alignment for Anti-Scheming Training (2025)</h3>
+<p class="meta">Schoen, B., Nitishinskaya, E., Balesni, M., Højmark, A., Hofstätter, F., Scheurer, J., Meinke, A., Wolfe, J., <strong>van der Weij, T.</strong>, Lloyd, A., Goldowsky-Dill, N., Fan, A., Matveiakin, A., Shah, R., Williams, M., Glaese, A., Barak, B., Zaremba, W., &amp; Hobbhahn, M. · <a href="https://arxiv.org/abs/2509.15541">arXiv:2509.15541</a></p>
+
+<p>A collaboration between Apollo Research and OpenAI: we trained models not to scheme, and stress-tested whether the training generalizes to held-out environments.</p>
+<p class="subhead">All papers</p>
+
+<h3>CTRL-ALT-DECEIT: Sabotage Evaluations for Automated AI R&amp;D (2025)</h3>
+<p class="meta">Ward, F. R., <strong>van der Weij, T.</strong>, Gábor, H., Martin, S., Moreno, R. M., Lidar, H., Makower, L., Jodrell, T., &amp; Robson, L. · NeurIPS 2025 (spotlight) · <a href="https://arxiv.org/abs/2511.09904">arXiv:2511.09904</a></p>
+
+<p>We built evaluations for whether AI agents can sabotage the ML research tasks they are asked to do, such as planting backdoors and sandbagging, and how well monitors catch this.</p>
+<h3>SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents (2025)</h3>
+<p class="meta">Kutasov, J., Sun, Y., Colognese, P., <strong>van der Weij, T.</strong>, Petrini, L., Zhang, C. B. C., Hughes, J., Deng, X., Sleight, H., Tracy, T., Shlegeris, B., &amp; Benton, J. · <a href="https://arxiv.org/abs/2506.15740">arXiv:2506.15740</a></p>
+
+<p>A collaboration with Anthropic: an evaluation suite for whether agents can complete a hidden malicious side task alongside a legitimate main task without a monitor noticing.</p>
+<h3>The Elicitation Game: Evaluating Capability Elicitation Techniques (2025)</h3>
+<p class="meta">Hofstätter, F., <strong>van der Weij, T.</strong>, Teoh, J., Djoneva, R., Bartsch, H., &amp; Ward, F. R. · Workshop on Socially Responsible Language Modeling Research · <a href="https://arxiv.org/abs/2502.02180">arXiv:2502.02180</a></p>
+
+<p>We conducted empirical work aiming to inform evaluators on how to best elicit AI systems with potentially hidden capabilities, and what type of access they'd need.</p>
 <h3>Noise Injection Reveals Hidden Capabilities of Sandbagging Language Models (2024)</h3>
-<div style="margin-left: 20px; margin-bottom: 15px;">
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> Tice, C., Kreer, P. A., Helm-Burger, N., Shahani, P. S., Ryzhenkov, F., Haimes, J., Hofstätter, F., <strong>van der Weij, T.</strong>
-  </div>
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🏛️ <strong>Venue:</strong></span> Workshop on Socially Responsible Language Modeling Research
-  </div>
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/abs/2412.01784" style="color: #3498db;">arXiv:2412.01784</a>
-  </div>
-  <div style="margin-top: 10px; font-style: italic; color: #555;">
-    I supervised this paper. Adding noise is a very interesting idea, and further experiments are being conducted to see if this can be used to robustly and accurately detect sandbagging.
-  </div>
-</div>
+<p class="meta">Tice, C., Kreer, P. A., Helm-Burger, N., Shahani, P. S., Ryzhenkov, F., Roger, F., Neo, C., Haimes, J., Hofstätter, F., <strong>van der Weij, T.</strong> · Workshop on Socially Responsible Language Modeling Research · <a href="https://arxiv.org/abs/2412.01784">arXiv:2412.01784</a></p>
 
-<h3>AI Sandbagging: Language Models can Strategically Underperform on Evaluations (2024) ⭐</h3>
-<div style="margin-left: 20px; margin-bottom: 15px;">
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> <strong>van der Weij, T.</strong>, Hofstätter, F., Jaffe, O., Brown, S. F., & Ward, F. R.
-  </div>
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🏛️ <strong>Venue:</strong></span> ICLR 2025
-  </div>
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/abs/2406.07358" style="color: #3498db;">arXiv:2406.07358</a>
-  </div>
-  <div style="margin-top: 10px; font-style: italic; color: #555;">
-    I am most proud of this paper, and I think it's my most impactful work so far. It's great to see our work being used in both technical and governance contexts, and also inspiring the creation of teams at prominent AI safety organizations.
-  </div>
-</div>
-
+<p>I supervised this paper. Adding noise is a very interesting idea, and further experiments are being conducted to see if this can be used to robustly and accurately detect sandbagging.</p>
 <h3>Extending Activation Steering to Broad Skills and Multiple Behaviours (2024)</h3>
-<div style="margin-left: 20px; margin-bottom: 15px;">
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> <strong>van der Weij, T.</strong>, Poesio, M., & Schoots, N.
-  </div>
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/abs/2403.05767" style="color: #3498db;">arXiv:2403.05767</a>
-  </div>
-  <div style="margin-top: 10px; font-style: italic; color: #555;">
-    This paper was very helpful in improving my technical skills, both in conducting experiments and in understanding transformers. The paper contains some interesting ideas, but its impact is limited.
-  </div>
-</div>
+<p class="meta"><strong>van der Weij, T.</strong>, Poesio, M., &amp; Schoots, N. · <a href="https://arxiv.org/abs/2403.05767">arXiv:2403.05767</a></p>
 
+<p>This paper was very helpful in improving my technical skills, both in conducting experiments and in understanding transformers. The paper contains some interesting ideas, but its impact is limited.</p>
 <h3>Evaluating Shutdown Avoidance of Language Models in Textual Scenarios (2023)</h3>
-<div style="margin-left: 20px; margin-bottom: 15px;">
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> <strong>van der Weij, T.</strong>, Lermen, S., & Lang, L.
-  </div>
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🏛️ <strong>Venue:</strong></span> Safe & Trusted AI, ICLP 2023
-  </div>
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://arxiv.org/pdf/2307.00787" style="color: #3498db;">arXiv PDF</a>
-  </div>
-  <div style="margin-top: 10px; font-style: italic; color: #555;">
-    My first project in AI safety. In some small experiments, we showed that GPT-4 has the capability to reason correctly about avoiding shutdown in certain scenarios, and actually does this in some cases. GPT-3.5 was substantially worse at reasoning about what to do for which reasons.
-  </div>
-</div>
+<p class="meta"><strong>van der Weij, T.</strong>, Lermen, S., &amp; Lang, L. · Safe &amp; Trusted AI, ICLP 2023 · <a href="https://arxiv.org/pdf/2307.00787">arXiv PDF</a></p>
 
+<p>My first project in AI safety. In some small experiments, we showed that GPT-4 has the capability to reason correctly about avoiding shutdown in certain scenarios, and actually does this in some cases. GPT-3.5 was substantially worse at reasoning about what to do for which reasons.</p>
 <h3>Runtime Prediction of Filter Unsupervised Feature Selection Methods (2022)</h3>
-<div style="margin-left: 20px; margin-bottom: 15px;">
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">👥 <strong>Authors:</strong></span> <strong>van der Weij, T.</strong>, Soancatl Aguilar, V., & Solorio-Fernández, S.
-  </div>
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🏛️ <strong>Venue:</strong></span> Research in Computing Science, 150(8), 138-150
-  </div>
-  <div style="margin-bottom: 8px;">
-    <span style="color: #666; font-size: 0.9em;">🔗 <strong>Link:</strong></span> <a href="https://research.rug.nl/en/publications/runtime-prediction-of-filter-unsupervised-feature-selection-metho" style="color: #3498db;">University of Groningen</a>
-  </div>
-</div>
+<p class="meta"><strong>van der Weij, T.</strong>, Soancatl Aguilar, V., &amp; Solorio-Fernández, S. · Research in Computing Science, 150(8), 138-150 · <a href="https://research.rug.nl/en/publications/runtime-prediction-of-filter-unsupervised-feature-selection-metho">University of Groningen</a></p>
 
-<h2 id="essays" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">✍️ Essays</h2>
+</div>
+</details>
+<details open class="tint-4">
+<summary><h2 id="essays">Essays</h2></summary>
+<div class="section-body">
 <p>I have written some essays, here's a list.</p>
 <ul>
 <li>
 <p><strong>How to mitigate sandbagging</strong>
-    I outline when sandbagging is especially problematic based differences regarding three factors: fine-tuning access, data quality, and scorability. I also describe various sandbagging mitigations, so it's a good place to get project ideas. <a href="https://www.alignmentforum.org/posts/Qv5PkrJYAaiBuEJjB/how-to-mitigate-sandbagging-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on the Alignment Forum ↗</a></p>
+    I outline when sandbagging is especially problematic based differences regarding three factors: fine-tuning access, data quality, and scorability. I also describe various sandbagging mitigations, so it's a good place to get project ideas. <a href="https://www.alignmentforum.org/posts/Qv5PkrJYAaiBuEJjB/how-to-mitigate-sandbagging-1">Read on the Alignment Forum ↗</a></p>
 </li>
 <li>
 <p><strong>An introduction to AI sandbagging</strong>
-    I describe in more detail what AI sandbagging is. I provide six examples, and I take my time to define terms. This essay is a good place to understand what AI sandbagging is! <a href="https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on the Alignment Forum ↗</a></p>
+    I describe in more detail what AI sandbagging is. I provide six examples, and I take my time to define terms. This essay is a good place to understand what AI sandbagging is! <a href="https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging">Read on the Alignment Forum ↗</a></p>
 </li>
 <li>
 <p><strong>Simple distribution approximation</strong>
-    What happens if you independently sample a language model 100 times with the task of 80% of those outputs being A, and the remaining 20% of outputs being B? Can it do this? <a href="https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on the Alignment Forum ↗</a></p>
+    What happens if you independently sample a language model 100 times with the task of 80% of those outputs being A, and the remaining 20% of outputs being B? Can it do this? <a href="https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1">Read on the Alignment Forum ↗</a></p>
 </li>
 <li>
 <p><strong>Beyond humans: why all sentient beings matter in existential risk</strong>
-    I do not only think about empirical machine learning, I like philosophy too! For this essay, I noticed that definitions about existential risk typically only include humans. I think this should be extended to include all sentient beings (of course humans are very important too). <a href="https://forum.effectivealtruism.org/posts/rXm5xGEGyvfBPAMF9/beyond-humans-why-all-sentient-beings-matter-in-existential-1" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Read on the EA Forum ↗</a></p>
+    I do not only think about empirical machine learning, I like philosophy too! For this essay, I noticed that definitions about existential risk typically only include humans. I think this should be extended to include all sentient beings (of course humans are very important too). <a href="https://forum.effectivealtruism.org/posts/rXm5xGEGyvfBPAMF9/beyond-humans-why-all-sentient-beings-matter-in-existential-1">Read on the EA Forum ↗</a></p>
+</li>
+<li>
+<p><strong>List of projects that seem impactful for AI governance</strong>
+    Together with Jaime Raldua, I brainstormed a list of concrete project ideas for AI governance, for people looking for something impactful to work on. <a href="https://www.lesswrong.com/posts/MPMsnpHkHoRQxarnG/list-of-projects-that-seem-impactful-for-ai-governance">Read on LessWrong ↗</a></p>
 </li>
 </ul>
-<h2 id="education" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">🎓 Education</h2>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">MSc at Utrecht University</h3>
-  <span style="color: #666; margin-left: 10px;">📅 Sep 2022 – Nov 2024 | 📍 Utrecht, Netherlands</span>
-</div>
+<!--
+## Education {#education}
 
-<p>Coursework includes Advanced Machine Learning, Natural Language Processing, Human-centered Machine Learning, Pattern Recognition &amp; Deep Learning, and Philosophy of AI.</p>
-<p>📊 Grade: 8.2/10</p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">BSc at University College Groningen</h3>
-  <span style="color: #666; margin-left: 10px;">📅 2018 – 2021 | 📍 Groningen, Netherlands</span>
-</div>
+### MSc at Utrecht University
+<p class="meta">Sep 2022 – Nov 2024 · Utrecht, Netherlands · Grade: 8.2/10</p>
 
-<p>For this programme I had the freedom to choose courses in any discipline, and I used that freedom. However, most of my courses were in AI, philosophy, and psychology. I think very highly of this programme, and would definitely recommend it to people choosing bachelors.</p>
-<p>📊 Grade: summa cum laude (with highest distinction).</p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">High school diploma from Het Nieuwe Eemland</h3>
-  <span style="color: #666; margin-left: 10px;">📅 2012 – 2018 | 📍 Amersfoort, Netherlands</span>
+Coursework includes Advanced Machine Learning, Natural Language Processing, Human-centered Machine Learning, Pattern Recognition & Deep Learning, and Philosophy of AI.
+
+### BSc at University College Groningen
+<p class="meta">2018 – 2021 · Groningen, Netherlands · Grade: summa cum laude (with highest distinction)</p>
+
+For this programme I had the freedom to choose courses in any discipline, and I used that freedom. However, most of my courses were in AI, philosophy, and psychology. I think very highly of this programme, and would definitely recommend it to people choosing bachelors.
+
+### High school diploma from Het Nieuwe Eemland
+<p class="meta">2012 – 2018 · Amersfoort, Netherlands · Grade: cum laude (with distinction)</p>
+
+## Activity highlights {#activity-highlights}
+
+### Moderator of a Q&A
+I moderated a Q&A event with (ex-)OpenAI and Alignment Research Center researchers (Jeff Wu, Jacob Hilton, and Daniel Kokotajlo). We had over 1,800 people attending the event on existential risks posed by AI.
+
+### Presentations
+I have presented at various events on AI safety and related topics. Topics include AI sandbagging, anti-scheming training, how to contribute to AI safety without doing technical research, and more.
+
+If you want me to present at your event, feel free to reach out. I might charge a fee for the presentation based on the event, but I am happy to discuss this.
+
+### Field-building
+My work at ENAIS is the best example of helping to support the field, but I have also helped organize events like the Dutch AI Safety Retreat.
+-->
 
 </div>
-<p>📊 Grade: cum laude (with distinction).</p>
-<h2 id="activity-highlights" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">🔸 Activity highlights</h2>
-<h3>Moderator of a Q&amp;A</h3>
-<p>I moderated a Q&amp;A event with (ex-)OpenAI and Alignment Research Center researchers (Jeff Wu, Jacob Hilton, and Daniel Kokotajlo). We had over 1,800 people attending the event on existential risks posed by AI.</p>
-<h3>Presentations</h3>
-<p>I have presented at various events on AI safety and related topics. Topics include AI sandbagging, how to contribute to AI safety without doing technical research, and more. </p>
-<p>If you want me to present at your event, feel free to reach out. I might charge a fee for the presentation based on the event, but I am happy to discuss this.</p>
-<h3>Field-building</h3>
-<p>My work at ENAIS is the best example of helping to support the field, but I have also helped organize events like the Dutch AI Safety Retreat.</p>
-<h2 id="outside-of-work" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">🌐 Outside of work</h2>
+</details>
+<details open class="tint-5">
+<summary><h2 id="outside-of-work">Outside of work</h2></summary>
+<div class="section-body">
 <p>I enjoy listening to music, so I go to concerts and festivals quite regularly. I listen to many genres, but my current two favorites are reggae and trance.</p>
-<p>I like travelling too, so I try to visit new places when I can. Some favorites are the Nordics, Australia, and Zimbabwe.</p>
-<p>Nature is nice too, and I mostly enjoy running, hiking, and snowboarding. Most recently I have gotten into splitboarding, which is taking a snowboard, splitting it in two to make them skis, putting skins underneath, and walking up a mountain. Then you can snowboard down again in beautiful places and hopefully great snow! </p>
-<h2 id="contact" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">📧 Contact</h2>
-<p><strong>📧 Email:</strong> mailvan{first name}@{google's email}</p>
-            </div>
-        </div>
-    </div>
+<p>I like <span class="photo-word">travelling<img src="travelling.jpg" alt="Teun at an Australian beach next to a car with a surfboard on the roof" loading="lazy"></span> too, so I try to visit new places when I can. Some favorites are the Nordics, Australia, and Zimbabwe.</p>
+<p>Nature is nice too, and I mostly enjoy running, hiking, and <span class="photo-word">snowboarding<img src="snowboarding.jpg" alt="Teun snowboarding down a powder slope under a blue sky" loading="lazy"></span>. I also regularly go <span class="photo-word">splitboarding<img src="splitboarding.jpg" alt="Teun on a snowy mountain with his splitboard and a birthday balloon" loading="lazy"></span>, which is taking a snowboard, splitting it in two to make them skis, putting skins underneath, and walking up a mountain. Then you can snowboard down again in beautiful places and hopefully great snow!</p>
+</div>
+</details>
+<div class="plain-section tint-6">
+<h2 id="contact">Contact</h2>
+<div class="contact-row">
+  <p><strong>Email:</strong> mailvan{first name}@{google's email}</p>
+  <img src="monogram.svg" alt="TvdW monogram" class="monogram">
+</div>
+</div>
+    </main>
+    <script>
+        document.querySelectorAll('.photo-word').forEach(function (word) {
+            word.addEventListener('click', function () { word.classList.toggle('open'); });
+        });
+    </script>
 </body>
 </html>
