@@ -2,7 +2,7 @@
 
 <div class="about">
   <div>
-    <p>I am a Member of Technical Staff at <a href="https://apolloresearch.ai/">Apollo Research</a> in Zürich, where I lead the RL Dynamics project. I care about effectively making the world a better place, and therefore I work on making AI systems safer.</p>
+    <p>I am a Member of Technical Staff at <a href="https://apolloresearch.ai/">Apollo Research</a> in Zürich, where I lead the RL Dynamics project. I care about effectively making the world a better place, and therefore I work on keeping AI systems safe.</p>
     <p>I am also a board member at the <a href="https://enais.co">European Network for AI Safety</a> which I co-founded, and an advisor to <a href="https://safeainetherlands.org/">Safe AI Netherlands (SAIN)</a>.</p>
   </div>
   <img src="teun_apollo_2025.jpg" alt="Portrait photo of Teun van der Weij, Member of Technical Staff at Apollo Research" width="180" height="180" loading="eager">
@@ -32,7 +32,7 @@ I co-founded the European Network for AI Safety (ENAIS), with a goal to improve 
 ### Independent AI safety researcher
 <p class="meta">Jan 2025 – May 2025 · Remote</p>
 
-I worked on research related to AI sandbagging and control. I examined how well monitors can catch both sandbagging and more general sabotage attempts.
+I worked on research related to <a href="https://arxiv.org/abs/2511.09904">AI sandbagging and control</a>. I examined how well monitors can catch both sandbagging and more general sabotage attempts.
 
 ### Resident at Mantic
 <p class="meta">Oct 2024 – Feb 2025 · London, UK & Remote · <a href="https://mntc.ai">mntc.ai ↗</a></p>
@@ -42,28 +42,28 @@ Mantic has the goal of creating an AI superforecaster. I worked as a research sc
 ### Independent research on AI sandbagging
 <p class="meta">Jul 2024 – Oct 2024 · London, UK & Remote</p>
 
-I continued research on strategic underperformance on evaluations (sandbagging) with a grant from the AI Safety Fund from the Frontier Model Forum. Together with Francis Rhys Ward and Felix Hofstätter, I continued the research started at MATS.
+I continued research on strategic underperformance on evaluations (sandbagging) with a grant from the [AI Safety Fund](https://aisfund.org) from the [Frontier Model Forum](https://www.frontiermodelforum.org). Together with Francis Rhys Ward and Felix Hofstätter, I [continued the research](https://arxiv.org/abs/2502.02180) started at [MATS](https://matsprogram.org).
 
 ### Research scholar at MATS
 <p class="meta">Jan 2024 – Jul 2024 · Berkeley, CA, US; London, UK & Remote · <a href="https://matsprogram.org">matsprogram.org ↗</a></p>
 
-MATS is a program to train AI safety researchers. At MATS, I mostly worked on strategic underperformance on evaluations (sandbagging) of general purpose AI with the mentorship of Francis Rhys Ward.
+MATS is a program to train AI safety researchers. At MATS, I mostly worked on [strategic underperformance on evaluations (sandbagging)](https://arxiv.org/abs/2406.07358) of general purpose AI with the mentorship of Francis Rhys Ward.
 
 ### SPAR participant
 <p class="meta">Feb 2023 – May 2023 · Remote</p>
 
-Participated in the Supervised Program for Alignment Research organized at UC Berkeley, focusing on evaluating the shutdown problem in language models.
+Participated in the [Supervised Program for Alignment Research](https://sparai.org) organized at UC Berkeley, focusing on evaluating the shutdown problem in language models.
 
 ### Earlier jobs
 <p class="meta">2016 – 2022</p>
 
 Before AI safety, I did a variety of other things:
 
-*   **Junior customer insights analyst at Samotics** (Nov 2021 – Feb 2022): I built a pipeline for automatic report generation.
-*   **Grocery delivery driver at Jumbo Supermarkten** (Sep 2021 – Nov 2021).
-*   **Teaching assistant at the University of Groningen** (2020 – 2021): for courses on Python programming, mathematics, machine learning, advanced programming, and computational methods; I was also a student mentor.
-*   **Sushi delivery driver at SushiPoint** (Apr 2017 – Apr 2018).
-*   **Dishwasher at A la minute** (Mar 2016 – Mar 2017).
+*   **Junior customer insights analyst at [Samotics](https://samotics.com)** (Nov 2021 – Feb 2022): I built a pipeline for automatic report generation.
+*   **Grocery delivery driver at [Jumbo Supermarkten](https://www.jumbo.com)** (Sep 2021 – Nov 2021).
+*   **Teaching assistant at the [University of Groningen](https://www.rug.nl)** (2020 – 2021): for courses on Python programming, mathematics, machine learning, advanced programming, and computational methods; I was also a student mentor.
+*   **Sushi delivery driver at [SushiPoint](https://www.sushipoint.nl)** (Apr 2017 – Apr 2018).
+*   **Dishwasher at A la minute** (Mar 2016 – Mar 2017; unfortunately went bankrupt).
 
 I also took a gap year (Feb 2022 – Aug 2022) to travel for half a year, and to further consider my life and career values.
 
@@ -169,11 +169,11 @@ My work at ENAIS is the best example of helping to support the field, but I have
 
 ## Outside of work {#outside-of-work}
 
-I enjoy listening to music, so I go to concerts and festivals quite regularly. I listen to many genres, but my current two favorites are reggae and trance.
+I enjoy listening to music, so I go to concerts and festivals regularly. I listen to many genres, but my current two favorites are reggae and trance.
 
 I like <span class="photo-word">travelling<img src="travelling.jpg" alt="Teun at an Australian beach next to a car with a surfboard on the roof" loading="lazy"></span> too, so I try to visit new places when I can. Some favorites are the Nordics, Australia, and Zimbabwe.
 
-Nature is nice too, and I mostly enjoy running, hiking, and <span class="photo-word">snowboarding<img src="snowboarding.jpg" alt="Teun snowboarding down a powder slope under a blue sky" loading="lazy"></span>. I also regularly go <span class="photo-word">splitboarding<img src="splitboarding.jpg" alt="Teun on a snowy mountain with his splitboard and a birthday balloon" loading="lazy"></span>, which is taking a snowboard, splitting it in two to make them skis, putting skins underneath, and walking up a mountain. Then you can snowboard down again in beautiful places and hopefully great snow!
+Nature is nice too, and I mostly enjoy running, hiking, and <span class="photo-word">snowboarding<img src="snowboarding.jpg" alt="Teun snowboarding down a powder slope under a blue sky" loading="lazy"></span>. I also regularly go <span class="photo-word">splitboarding<img src="splitboarding.jpg" alt="Teun on a snowy mountain with his splitboard and a birthday balloon" loading="lazy"></span>, which is taking a snowboard, splitting it in two to make them skis, putting [skins](https://en.wikipedia.org/wiki/Ski_skins) underneath, and walking up a mountain. Then you can snowboard down again in beautiful places and hopefully great snow!
 
 ## Contact {#contact}
 
