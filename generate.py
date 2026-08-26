@@ -19,6 +19,9 @@ TEMPLATE = """
     <meta name="google-site-verification" content="KtshQWrFQSLFPOdEvB1r3MBNc1-JydfiLaVAKEa2UmI">
     <script defer src="https://cloud.umami.is/script.js" data-website-id="383ba7fe-f32b-4945-9eb5-0fb696ad49a0"></script>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="canonical" href="https://teunvanderweij.com/">
     <meta property="og:title" content="Teun van der Weij - AI Safety Researcher">
     <meta property="og:description" content="Member of Technical Staff at Apollo Research in Zürich, leading the RL Dynamics project.">
